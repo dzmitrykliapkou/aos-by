@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/calendar.css">
 </head>
 <body>
     <div id="dev-banner" class="dev-banner">
@@ -42,36 +43,31 @@
     <section class="hero">
         <div class="container">
             <h1>Age of Sigmar в Беларуси</h1>
-            <p>Сообщество игроков, художников и коллекционеров Mortal Realms. Присоединяйся к битвам за Владения!</p>
-            <section id="events" class="section">
+            <p>Новости, ивенты и полезные материалы для фанатов Warhammer: Age of Sigmar в Беларуси</p>
+        </div>
+    </section>
 
-                <div class="container">
-            
-                    <div class="events-title">
-            
-                        <h2>Наши ивенты</h2>
-            
-                        <div class="calendar-nav">
-            
-                            <button id="calendar-prev" aria-label="Предыдущий месяц">
-                                <i class="fas fa-chevron-left"></i>
-                            </button>
-            
-                            <button id="calendar-next" aria-label="Следующий месяц">
-                                <i class="fas fa-chevron-right"></i>
-                            </button>
-            
-                        </div>
-            
-                    </div>
-            
-                    <div id="calendar-wrapper">
-            
-                    </div>
-            
-                </div>
-            
-            </section>
+    <section id="events" class="section">
+        <div class="container">
+
+            <div class="events-title">
+                <h2>Календарь ивентов</h2>
+            </div>
+
+            <div class="calendar-outer">
+
+                <button id="calendar-prev" class="calendar-arrow" aria-label="Прокрутить назад">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div id="calendar-wrapper" class="calendar-wrapper"></div>
+
+                <button id="calendar-next" class="calendar-arrow" aria-label="Прокрутить вперёд">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+            </div>
+
         </div>
     </section>
 
@@ -162,6 +158,21 @@
             <p>Сайт создан для локального комьюнити, не является официальным.</p>
         </div>
     </footer>
+
+    <div id="event-modal" class="event-modal" aria-hidden="true">
+        <div class="event-modal-backdrop" data-close></div>
+        <div class="event-modal-card" role="dialog" aria-modal="true">
+            <button class="event-modal-close" data-close aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <span class="event-modal-badge"></span>
+            <h3 class="event-modal-title"></h3>
+            <p class="event-modal-date"></p>
+            <p class="event-modal-location"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+            <p class="event-modal-organizer"><i class="fas fa-users"></i> <span></span></p>
+            <a class="event-modal-link btn-sm" href="#" target="_self">Подробнее</a>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
     <script src="js/calendar.js"></script>
