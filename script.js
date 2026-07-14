@@ -222,3 +222,24 @@ function escapeHtml(text) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const banner = document.getElementById("dev-banner");
+    const closeBtn = document.getElementById("close-banner");
+
+    if (!banner || !closeBtn) return;
+
+    const storageKey = "devBannerClosed";
+
+    if (localStorage.getItem(storageKey) === "true") {
+        banner.classList.add("hidden");
+    } else {
+        document.body.classList.add("banner-visible");
+    }
+
+    closeBtn.addEventListener("click", () => {
+        banner.classList.add("hidden");
+        document.body.classList.remove("banner-visible");
+        localStorage.setItem(storageKey, "true");
+    });
+});
