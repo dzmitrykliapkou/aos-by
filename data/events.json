@@ -1,8 +1,18 @@
 [
     {
         "title": "Командный турнир «Встречаем по обложке»",
-        "date": "2026-08-08",
-        "category": "tournament",
+        "date": "2026-07-12",
+        "category": "Турнир",
+        "location": "Клуб «Логово Дракона",
+        "organizer": "Артем",
         "url": "tournaments/team-tournament-vstrechaem-po-oblojke-2026/"
+    },
+    {
+        "title": "Одиночный турнир «Провожаем по уму»",
+        "date": "2026-08-01",
+        "category": "Турнир",
+        "location": "Клуб «Фантомный», Минск, ул. Воображаемая 12",
+        "organizer": "AoS Belarus",
+        "url": "tournaments/provojaem-po-umu/"
     }
 ]

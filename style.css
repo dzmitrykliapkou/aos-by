@@ -344,7 +344,6 @@ footer p {
 
 .upcoming {
     opacity: 0.7;
-    pointer-events: none;
 }
 
 .upcoming-badge {
@@ -576,105 +575,12 @@ body.banner-visible {
     }
 }
 
-/* ===========================
-   EVENTS CALENDAR
-=========================== */
-
-.events-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:25px;
+.tournaments-section-title{
+    color: #c9a84c;
+    font-size: 1.3rem;
+    margin: 40px 0 15px;
 }
 
-.events-calendar{
-
-    display:flex;
-
-    gap:30px;
-
-    overflow-x:auto;
-
-    scroll-behavior:smooth;
-
-    padding-bottom:15px;
-
-}
-
-.events-calendar::-webkit-scrollbar{
-
-    height:8px;
-
-}
-
-.calendar-month{
-
-    min-width:320px;
-
-    background:#222;
-
-    border-radius:12px;
-
-    padding:20px;
-
-    flex-shrink:0;
-
-}
-
-.calendar-month h3{
-
-    text-align:center;
-
-    margin-bottom:20px;
-
-}
-
-.calendar-month table{
-
-    width:100%;
-
-    border-collapse:collapse;
-
-}
-
-.calendar-month th{
-
-    padding:8px;
-
-    opacity:.6;
-
-}
-
-.calendar-month td{
-
-    width:14.28%;
-
-    height:42px;
-
-    text-align:center;
-
-    cursor:default;
-
-    border-radius:8px;
-
-    transition:.2s;
-
-}
-
-.event-day{
-
-    background:#b31f2b;
-
-    cursor:pointer !important;
-
-    font-weight:bold;
-
-}
-
-.event-day:hover{
-
-    background:#d32939;
-
-    transform:scale(1.1);
-
+.tournaments-section-title:first-child{
+    margin-top: 10px;
 }
