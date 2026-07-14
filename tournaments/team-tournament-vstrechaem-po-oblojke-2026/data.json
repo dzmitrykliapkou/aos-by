@@ -1,0 +1,37 @@
+{
+  "name": "Встречаем по Обложке 2026",
+  "date": "12 июля 2026",
+  "location": "Минск, клуб «Логово Дракона»",
+  "organizer": "Артем",
+  "rulesLink": "rules.pdf",
+  "finished": true,
+  "players": [
+    {
+      "name": "Райан Гослинг",
+      "army": "Slaves to Darkness",
+      "rosterFile": "rosters/ryan.txt",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "points": 45
+    },
+    {
+      "name": "Дженифер Лопез",
+      "army": "Daughters of Khaine",
+      "rosterFile": "rosters/janifer.txt",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "points": 37
+    },
+    {
+      "name": "Антонио Бандерас",
+      "army": "Stormcast Eternals",
+      "rosterFile": "rosters/antonio.txt",
+      "wins": 2,
+      "losses": 0,
+      "draws": 1,
+      "points": 34
+    }
+  ]
+}
