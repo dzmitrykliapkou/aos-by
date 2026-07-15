@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Турниры — Age of Sigmar Belarus</title>
-    <meta name="description" content="Архив турниров по Age of Sigmar в Беларуси">
+    <title id="page-title">Статья — Age of Sigmar Belarus</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/article.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -31,10 +32,10 @@
 
     <section class="section">
         <div class="container">
-            <h1>Турниры</h1>
-            <p class="subtitle">Регламенты, ростеры и результаты прошедших событий.</p>
-
-            <div id="tournaments-grid"></div>
+            <a href="index.html#materials" class="back-link"><i class="fas fa-arrow-left"></i> К материалам</a>
+            <article id="article-content" class="article">
+                <!-- Заполняется через JS -->
+            </article>
         </div>
     </section>
 
@@ -43,7 +44,8 @@
             <p>&copy; 2026 Age of Sigmar Belarus. Фанатский проект.</p>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
-    <script src="js/tournaments.js"></script>
+    <script src="js/article.js"></script>
 </body>
 </html>
