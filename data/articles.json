@@ -1,15 +1,5 @@
 [
     {
-        "slug": "lore-timeline-mortal-realms",
-        "title": "Лор Mortal Realms: таймлайн",
-        "excerpt": "Хронология событий от Эпохи Мифа до наших дней.",
-        "tags": ["лор"],
-        "date": "2026-07-01",
-        "author": "AoS Belarus",
-        "cover": "images/articles/lore-timeline-cover.jpg",
-        "mdFile": "articles/lore-timeline-mortal-realms.md"
-    },
-    {
         "slug": "guide-quick-paint",
         "title": "Гайд по скоростной покраске",
         "excerpt": "Как подготовить армию к турниру за вечер.",
@@ -28,5 +18,15 @@
         "author": "AoS Belarus",
         "cover": "images/articles/report-cover.jpg",
         "mdFile": "articles/vstrechaem-po-oblojke-report.md"
+    },
+    {
+        "slug": "wargames-day",
+        "title": "WARGAMES DAY в клубе «Логово Дракона»",
+        "excerpt": "Ждём всех любителей настольных игр, миниатюр и эпических сражений!",
+        "tags": ["новость"],
+        "date": "2026-07-15",
+        "author": "AoS Belarus",
+        "cover": "images/articles/4c2737a7-ddee-4562-b1d4-7528133273f3.jpeg",
+        "mdFile": "articles/wargamesday26.md"
     }
 ]
