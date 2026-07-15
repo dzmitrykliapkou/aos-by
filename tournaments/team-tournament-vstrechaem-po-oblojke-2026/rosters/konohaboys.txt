@@ -1,0 +1,101 @@
+Алексей
+Grand Alliance: Order				
+Faction: Fyreslayers				
+Battle Formation: Scales of Vulcatrix				
+Battle Tactics Cards: Smokescreen and Siege of Ashe				
+Drops: 5				
+				
+Prayer Lore: Vulkyn Gifts				
+Manifestation Lore: Magmic Invocations				
+Faction Terrain: Magmic Battleforge				
+Regiment 1				
+General's regiment				
+1 x Auric Runefather on Magmadroth (320 points)				
+• Droth-helm				
+1 x Scourge of Aqshy Auric Runeson on Magmadroth (330 points)				
+• Marks of Vulcatrix: INTENSE FYRESTREAM (10 points)				
+Regiment 2				
+1 x Auric Runefather on Magmadroth (320 points)				
+• Ash-beard				
+1 x Scourge of Aqshy Auric Runeson on Magmadroth (330 points)				
+Regiment 3				
+1 x Auric Runesmiter on Magmadroth (280 points)				
+Regiment 4				
+1 x Auric Runesmiter (90 points)				
+Regiment Of Renown				
+Gotrek Gurnisson (320 points)				
+1 x Gotrek Gurnisson				
+Wounds: 83				
+2000/2000 Pts
+
+---
+
+Виталий 
+Grand Alliance: Destruction					
+Faction: Gloomspite Gitz					
+Battle Formation: Troggherd					
+Battle Tactics Cards: Blazing Onslaught and Legend of The Parch					
+Drops: 4					
+Faction Terrain: Bad Moon Loonshrine					
+Spell Lore LORE OF THE LITTLE WAAAGH!        					
+Manifestation Lore: Krondspine Incarnate					
+Regiment 1					
+1 x Trugg, the Troggoth King (340 points)					
+6 x Rockgut Troggoths (340 points)					
+6 x Rockgut Troggoths (340 points)					
+"3 x Scourge of Aqshy
+Fellwater Troggoth (180 points)"					
+1 x Dankhold Troggoth (140 points) 					
+- Special Knick-Knack Glitzy Bitz Rolla (10 points)					
+					
+Regiment 2					
+1 x Droggz Da Sunchompa (150 points)					
+1 x Doom Diver Catapult (150 points)					
+					
+Regiment 3					
+1 x Skragrott, the Loonking (200 points)					
+					
+Regiment 4					
+1 x Loonboss on Mangler Squigs (140 points)					
+• Backstabber's Blade					
+• Fight Another Day					
+Wounds: 140					
+1990/2000 Pts
+
+---
+
+Глеббельс
+Grand Alliance: Destruction			
+Faction: Ironjawz			
+Battle Formation: Ironjawz Brawl			
+Battle Tactics Cards: Siege of Ashes and Burning for Vengeance			
+Drops: 3			
+Spell Lore: Lore of the Weird			
+Prayer Lore: Warbeats			
+Manifestation Lore: Manifestations of Gorkamorka			
+Faction Terrain: Bossrokk Tower			
+			
+Regiment 1			
+General's regiment			
+1 x Kragnos, the End of Empires (580 points)			
+10 x Brutes AQSHY (320 points)			
+• 2 x Gore-choppa			
+10 x Brutes AQSHY (320 points)			
+• 2 x Gore-choppa			
+1 x Zoggrok Anvilsmasha (160 points)			
+• 1 x Grunta-tongs			
+3 x Weirdbrute Wrekkaz (90)			
+			
+Regiment 2			
+1 x Warchanter (110 points)			
+[Artefact]: trophy skulls			
+[Heroic Trait]: An Eye For Da Fight			
+1 x Maw-grunta Gougers (200 points)			
+[Ironjawz Monstrous Traits]: Big 'Un (10 points)			
+			
+Regiment 3			
+1 x Weirdnob Shaman (110 points)			
+3 x Weirdbrute Wrekkaz (90)			
+			
+Wounds: 127			
+1990/2000 Pts			

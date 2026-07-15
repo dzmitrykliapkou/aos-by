@@ -1,0 +1,102 @@
+Антон
+Grand Alliance: Death
+Faction: Soulblight Gravelords
+Battle Formation: Bacchanal of Blood
+Battle Tactics Cards: siege of ashes и burning for vengeance
+Drops: 3
+
+Spell Lore: Lore of Undeath
+Manifestation Lore: Manifestations of the Grave
+Faction Terrain: Cursed Sepulchre
+
+Regiment 1
+General's regiment
+1 x Prince Vhordrai (470 points)
+3 x Vargheists (120 points)
+
+Regiment 2
+1 x Vampire Lord on Nightmare Steed (180 points)
+[Artefact]: Terminus Clock
+[Heroic Trait]: Immortal Ego
+10 x Blood Knights (440 points)
+10 x Blood Knights (440 points)
+
+Regiment 3
+1 x Vampire Lord (140 points)
+10 x Deathrattle Skeletons (90 points)
+10 x Deathrattle Skeletons (90 points)
+THE EMPTY GRAVEYARD (10 points)
+
+---
+
+Роман
+Grand Alliance: Order
+Faction: Daughters of Khaine
+Battle Formation: Coven of Blood
+Battle Tactics Cards: blazing onslaught и legend of the parch
+Drops: 3
+
+Spell Lore: Lore of Shadows
+Prayer Lore: Prayers of the Khainite Cult
+Manifestation Lore: Manifestations of Khaine
+Faction Terrain: Shrine of Dark Tribute (20 pts)
+
+Regiment 1
+General's regiment
+1 x Morathi-Khaine (750 points)
+1 x The Shadow Queen (0 points)
+10 x Blood Sisters (320 points)
+TENEBROUS AURA
+
+Regiment 2
+1 x Krethusa the Croneseer (220 points)
+20 x Blood Hags (300 points)
+
+Regiment 3
+1 x Melusai Ironscale Scourge of Aqshy (140 points)
+[Artefact]: Whitchbrew
+[Heroic Trait]: MURDEROUS DUELLIST
+5 x Blood Stalkers (150 points)
+5 x Khinerai Heartrenders (100 points)
+
+2000pts
+
+---
+
+Павел @PSpichakov
+Ossiarch Bonereapers
+Remorseless Conquerors
+General's Handbook 2026-27
+Drops: 3
+Wounds: 150
+Spell Lore - Lore of Ossian Sorcery
+Manifestation Lore - Horrors of the Necropolis
+
+Battle Tactic Cards:
+Flanking Firestorm, Burning for Vengeance
+‍‍‍‌‌⁠⁠‌‌‌‌⁠⁠⁠⁣⁠⁡⁣⁡‌⁣‌⁣⁠⁡‌⁡‌⁣‌⁣‌⁡⁣⁣‌⁡‌⁠‌⁣⁡‌‌⁣‌⁣⁠⁣⁣‌‌⁣‌⁣‌⁡⁣⁣‌⁣‌⁣‌⁡⁠⁡‌⁡⁠‌‌⁡‌⁡‌⁡‌⁣⁠⁣‌⁡⁠⁣‌⁠‌⁡⁣‌‌⁡‌⁡‌⁡⁠⁠‌⁡⁣⁠⁠⁣‌⁠⁠⁣‌⁡‌⁣‌⁣‌⁣⁡‌‌⁣‌⁣⁠⁣‌⁠‌⁣‌⁣‌⁡⁣⁣‌⁣‌⁣‌⁡‌⁣‌⁡‌⁣‌⁣⁡⁣‌⁡‌‌‌⁣⁡⁣‌⁡‌⁠‌⁣‌⁣‌⁣⁡‌‌⁣‌⁣⁠⁡⁠⁣‌⁣‌⁣‌⁡⁣⁣‌⁣‌⁣‌⁡‌⁡‌⁣⁡⁣‌⁡‌‌‌⁣⁡⁣‌⁡⁠‌‌⁡⁠‌‌⁣‌⁣‌⁣⁡‌‌⁣‌⁣⁠⁣⁠‌‌⁣‌⁣‌⁡⁣⁣‌⁡‌⁡‌⁡⁠‌‌⁣⁡‌‌⁣‌⁣⁠⁡⁣‌‌⁣‌⁣‌⁡⁣⁣‌⁣‌⁣⁠⁡⁠⁣‌⁡⁣⁣‌⁡‌‌‌⁡⁣⁣‌⁡‌‌‌⁣‌⁣‌⁣⁡‌‌⁣‌⁣⁠⁡⁠‌‌⁣‌⁣‌⁡⁣⁣‌⁣‌⁣‌⁡‌‌‌⁡⁠⁠‌⁡‌‌‌⁡⁠⁡‌⁡‌⁣‌⁡‌‌‌⁡‌⁣‌⁡⁠⁣‌⁣‌⁣⁠⁡⁡⁠‌⁠‌⁡‌⁠⁠‌
+General's Regiment
+Arch-Kavalos Zandtos (220)
+• General
+Teratic Cohort (90)
+Kavalos Deathriders (300)
+• Reinforced
+• Perpetually Empowered Weapons (10)
+Kavalos Deathriders (150)
+
+Regiment 1
+Liege-Kavalos (180)
+• Soulweb Gem
+• Imperious Will (20)
+Kavalos Deathriders (150)
+Kavalos Deathriders (150)
+Kavalos Deathriders (150)
+
+Regiment 2
+Mortisan Ossifector (110)
+Mortis Reapers (110)
+Mortek Crawler (250)
+Mortis Reapers (110)
+
+Faction Terrain
+Bone-tithe Nexus

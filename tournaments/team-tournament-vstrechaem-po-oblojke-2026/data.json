@@ -7,31 +7,58 @@
   "finished": true,
   "players": [
     {
-      "name": "Райан Гослинг",
-      "army": "Slaves to Darkness",
-      "rosterFile": "rosters/ryan.txt",
+      "name": "Команда «Коноха Бойз»",
+      "army": "Gloomspite Gitz, Fyreslayers, Ironjawz",
+      "rosterFile": "rosters/konohaboys.txt",
       "wins": 3,
       "losses": 0,
       "draws": 0,
-      "points": 45
+      "points": 119
     },
     {
-      "name": "Дженифер Лопез",
-      "army": "Daughters of Khaine",
-      "rosterFile": "rosters/janifer.txt",
+      "name": "Команда «Down fu pandaz»",
+      "army": "Disciples of Tzeentch, Idoneth Deepkin, Daughters of Khaine",
+      "rosterFile": "rosters/pandaz.txt",
       "wins": 2,
       "losses": 1,
       "draws": 0,
-      "points": 37
+      "points": 117
     },
     {
-      "name": "Антонио Бандерас",
-      "army": "Stormcast Eternals",
-      "rosterFile": "rosters/antonio.txt",
+      "name": "Команда «Пивное братство»",
+      "army": "Helsmiths of Hashut, Sons of Behemat, Kharadron Overlords",
+      "rosterFile": "rosters/pivnoe.txt",
       "wins": 2,
-      "losses": 0,
-      "draws": 1,
-      "points": 34
+      "losses": 1,
+      "draws": 0,
+      "points": 99
+    },
+    {
+      "name": "Команда «Любовь, смерть и биороботы»",
+      "army": "Soulblight Gravelords, Seraphon, Flesh-eater Courts",
+      "rosterFile": "rosters/lovedeathrobots.txt",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "points": 92
+    },
+    {
+      "name": "Команда «Традиционные ценности»",
+      "army": "Soulblight Gravelords, Daughters of Khaine, Ossiarch Bonereapers",
+      "rosterFile": "rosters/tradition.txt",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "points": 64
+    },
+    {
+      "name": "Команда «Фул покрас под пивас»",
+      "army": "Gloomspite Gitz, Sylvaneth, Ironjawz",
+      "rosterFile": "rosters/full.txt",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "points": 49
     }
   ]
 }
