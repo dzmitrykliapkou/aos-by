@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/article.css">
 </head>
 <body>
     <div id="dev-banner" class="dev-banner">
@@ -74,55 +75,18 @@
     <section id="news" class="section">
         <div class="container">
             <h2>Новости комьюнити</h2>
-            <div class="news-grid">
-                <article class="news-card">
-                    <div class="news-date">12 июля 2026</div>
-                    <h3>Новая редакция правил: что изменилось</h3>
-                    <p>Обзор ключевых изменений в 4-й редакции и как они повлияют на наши турниры. Готовим перевод основных моментов.</p>
-                    <a href="#" class="read-more">Читать дальше <i class="fas fa-arrow-right"></i></a>
-                </article>
-                <article class="news-card">
-                    <div class="news-date">5 июля 2026</div>
-                    <h3>Обновление ростера Seraphon</h3>
-                    <p>Новый батлтом вышел — обсуждаем листы, синергии и пробуем в клубе. Делитесь впечатлениями в чате.</p>
-                    <a href="#" class="read-more">Читать дальше <i class="fas fa-arrow-right"></i></a>
-                </article>
-                <article class="news-card">
-                    <div class="news-date">28 июня 2026</div>
-                    <h3>Конкурс покраса: «Герои Владений»</h3>
-                    <p>Принимаем работы до конца месяца. Победитель получит стартовый набор Spearhead. Правила и голосование внутри.</p>
-                    <a href="#" class="read-more">Читать дальше <i class="fas fa-arrow-right"></i></a>
-                </article>
-            </div>
+            <div class="news-grid" id="news-grid"></div>
         </div>
     </section>
 
     <section id="materials" class="section section-alt">
         <div class="container">
             <h2>Полезные материалы</h2>
-            <p class="subtitle">Документы, переводы, чек-листы и гайды — всё в Google Docs.</p>
-            <div class="materials-grid">
-                <a href="https://docs.google.com/document/d/example1" class="material-card" target="_blank" rel="noopener">
-                    <i class="fas fa-file-alt"></i>
-                    <h3>Краткий справочник правил 4.0</h3>
-                    <p>Памятка по фазам, ключевым словам и боевым тактикам.</p>
-                </a>
-                <a href="https://docs.google.com/spreadsheets/d/example2" class="material-card" target="_blank" rel="noopener">
-                    <i class="fas fa-table"></i>
-                    <h3>Ростеры армий (актуальные)</h3>
-                    <p>Таблицы с очками и обновлёнными профилями.</p>
-                </a>
-                <a href="https://docs.google.com/document/d/example3" class="material-card" target="_blank" rel="noopener">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>Гайд по скоростной покраске</h3>
-                    <p>Как подготовить отряд к турниру за вечер.</p>
-                </a>
-                <a href="https://docs.google.com/document/d/example4" class="material-card" target="_blank" rel="noopener">
-                    <i class="fas fa-scroll"></i>
-                    <h3>Лор Mortal Realms: таймлайн</h3>
-                    <p>Хронология событий от Эпохи Мифа до наших дней.</p>
-                </a>
-            </div>
+            <p class="subtitle">Лор, гайды, репорты и переводы от сообщества.</p>
+
+            <div id="materials-tags" class="materials-tags"></div>
+
+            <div class="materials-grid" id="materials-grid"></div>
         </div>
     </section>
 
@@ -176,5 +140,7 @@
 
     <script src="js/script.js"></script>
     <script src="js/calendar.js"></script>
+    <script src="js/materials.js"></script>
+    <script src="js/news.js"></script>
 </body>
 </html>

@@ -172,6 +172,8 @@ nav a:hover {
     padding: 25px;
     border-radius: 6px;
     transition: border-color 0.3s;
+    display: block;
+    color: inherit;
 }
 
 .news-card:hover {
