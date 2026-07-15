@@ -8,11 +8,24 @@
         "url": "tournaments/team-tournament-vstrechaem-po-oblojke-2026/"
     },
     {
-        "title": "Одиночный турнир «Провожаем по уму»",
+        "title": "Одиночный турнир «Пока без названия»",
         "date": "2026-08-01",
         "category": "Турнир",
-        "location": "Клуб «Фантомный», Минск, ул. Воображаемая 12",
-        "organizer": "AoS Belarus",
-        "url": "tournaments/provojaem-po-umu/"
+        "location": "Клуб «Логово Дракона",
+        "organizer": "Виталик"
+    },
+    {
+        "title": "День Варгеймов",
+        "date": "2026-07-26",
+        "category": "Открытый день",
+        "location": "Клуб «Логово Дракона",
+        "organizer": "Рома"
+    },
+    {
+        "title": "Одиночный турнир «Пока без названия»",
+        "date": "2026-08-29",
+        "category": "Турнир",
+        "location": "Клуб «Логово Дракона",
+        "organizer": "Виталик"
     }
 ]
