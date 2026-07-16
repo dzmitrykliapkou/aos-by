@@ -17,5 +17,15 @@
         "author": "AoS Belarus",
         "cover": "images/articles/4c2737a7-ddee-4562-b1d4-7528133273f3.jpeg",
         "mdFile": "articles/wargamesday26.md"
+    },
+    {
+        "slug": "blood-bowl-august",
+        "title": "Blood Bowl Жнiвень Cup!!!",
+        "excerpt": "Продолжаем продолжать наше спортивное поклонение Наффлу!",
+        "tags": ["новость"],
+        "date": "2026-07-16",
+        "author": "AoS Belarus",
+        "cover": "images/articles/bloodbowl0826.png",
+        "mdFile": "articles/bloodbowl0826.md"
     }
 ]

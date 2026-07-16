@@ -28,5 +28,13 @@
         "category": "Турнир",
         "location": "Клуб «Логово Дракона»",
         "organizer": "Виталик"
+    },
+    {
+        "title": "Blood Bowl Жнiвень Cup",
+        "date": "2026-08-15",
+        "category": "Турнир",
+        "location": "Клуб «Логово Дракона»",
+        "organizer": "Роман",
+        "url": "tournaments/blood-bowl-august-cup-2026/"
     }
 ]
