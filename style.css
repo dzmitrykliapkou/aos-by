@@ -586,3 +586,96 @@ body.banner-visible {
 .tournaments-section-title:first-child{
     margin-top: 10px;
 }
+.rules-details{
+    width: 100%;
+    box-sizing: border-box;
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.rules-details summary{
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #c9a84c;
+    font-weight: 600;
+    transition: background .2s;
+}
+
+.rules-details summary::-webkit-details-marker{
+    display: none;
+}
+
+.rules-details summary:hover{
+    background: #252525;
+}
+
+.rules-details .toggle-icon{
+    transition: transform .25s;
+    font-size: .85rem;
+}
+
+.rules-details[open] .toggle-icon{
+    transform: rotate(180deg);
+}
+
+.rules-body{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 20px 20px;
+    background: #181818;
+    border-top: 1px solid #2a2a2a;
+    color: #ddd;
+    line-height: 1.7;
+    overflow-x: auto;
+}
+
+.rules-body h2,
+.rules-body h3{
+    color: #c9a84c;
+    margin: 20px 0 10px;
+}
+
+.rules-body ul,
+.rules-body ol{
+    margin: 0 0 15px 20px;
+}
+
+.rules-body p{
+    margin-bottom: 12px;
+}
+
+.rules-body table{
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+}
+
+.rules-body th{
+    background: #2c2416;
+    color: #c9a84c;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 2px solid #c9a84c;
+    white-space: nowrap;
+}
+
+.rules-body td{
+    padding: 8px 15px;
+    border-bottom: 1px solid #2a2a2a;
+    color: #ddd;
+}
+
+.rules-body tbody tr:hover{
+    background: #212121;
+}

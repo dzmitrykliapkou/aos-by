@@ -39,10 +39,20 @@ function renderTournament(jsonPath) {
 
                 <p><strong>Организатор:</strong> ${data.organizer}</p>
 
-                <a href="${data.rulesLink}" class="btn-sm" target="_blank">
-                    <i class="fas fa-file-alt"></i>
-                    Регламент
-                </a>
+                ${data.rulesFile ? `
+                    <details class="rules-details">
+                        <summary>
+                            <span><i class="fas fa-file-alt"></i> Регламент</span>
+                            <i class="fas fa-chevron-down toggle-icon"></i>
+                        </summary>
+                        <div class="rules-body" data-rules-file="${data.rulesFile}"></div>
+                    </details>
+                ` : data.rulesLink ? `
+                    <a href="${data.rulesLink}" class="btn-sm" target="_blank">
+                        <i class="fas fa-file-alt"></i>
+                        Регламент
+                    </a>
+                ` : ""}
 
                 <hr class="divider">
             `;
@@ -150,6 +160,11 @@ function renderTournament(jsonPath) {
                 details.addEventListener("toggle", handleRosterToggle);
             });
 
+            const rulesDetails = container.querySelector(".rules-details");
+            if (rulesDetails) {
+                rulesDetails.addEventListener("toggle", handleRulesToggle);
+            }
+
         })
         .catch(err => {
 
@@ -206,6 +221,39 @@ async function handleRosterToggle() {
         rosterDiv.innerHTML = `
             <p>Не удалось загрузить ростер.</p>
         `;
+    }
+}
+
+async function handleRulesToggle() {
+
+    if (!this.open) return;
+
+    if (this.dataset.loaded === "true") return;
+
+    const rulesBody = this.querySelector(".rules-body");
+    const file = rulesBody?.dataset.rulesFile;
+
+    if (!file || !rulesBody) return;
+
+    try {
+
+        const response = await fetch(file);
+
+        if (!response.ok) {
+            throw new Error(`Ошибка ${response.status}`);
+        }
+
+        const mdText = await response.text();
+
+        rulesBody.innerHTML = marked.parse(mdText);
+
+        this.dataset.loaded = "true";
+
+    } catch (err) {
+
+        console.error(err);
+
+        rulesBody.innerHTML = `<p>Не удалось загрузить регламент.</p>`;
     }
 }
 

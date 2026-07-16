@@ -135,3 +135,37 @@
     border-radius: 6px;
     margin-bottom: 15px;
 }
+
+.article-body table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+}
+
+.article-body th{
+    background: #2c2416;
+    color: #c9a84c;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 2px solid #c9a84c;
+    white-space: nowrap;
+}
+
+.article-body td{
+    padding: 8px 15px;
+    border-bottom: 1px solid #2a2a2a;
+    color: #ddd;
+}
+
+.article-body tbody tr:hover{
+    background: #212121;
+}
+
+.article-body table{
+    display: block;
+    overflow-x: auto;
+}
