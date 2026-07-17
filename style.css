@@ -352,6 +352,31 @@ footer p {
     background: #555;
 }
 
+/* Идёт регистрация — самые "горячие" карточки, полная яркость и зелёный акцент */
+.tournament-card.registration {
+    opacity: 1;
+    border-color: #4caf50;
+}
+
+.tournament-card.registration:hover {
+    border-color: #6fcf73;
+}
+
+.badge.registration-badge {
+    background: #4caf50;
+    color: #0d1f0d;
+}
+
+/* Планируются — приглушённые, без даты регистрации, пунктирная рамка */
+.tournament-card.planned {
+    border-style: dashed;
+}
+
+.badge.planned-badge {
+    background: #555;
+    color: #e0e0e0;
+}
+
 /* Tournament single page */
 .back-link {
     display: inline-block;
