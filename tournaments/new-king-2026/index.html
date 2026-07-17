@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Новый Король">
+    <meta property="og:description" content="Сольный турнир по Warhammer: Age of Sigmar. Минск, клуб «Логово Дракона».">
+    <meta property="og:image" content="https://aos.by/images/og-cover.jpg">
+    <meta property="og:url" content="https://aos.by/tournaments/new-king-2026/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title id="page-title">Турнир</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="../../index.html" class="logo">AoS Belarus</a>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html#news">Новости</a></li>
+                    <li><a href="../../tournaments.html">Турниры</a></li>
+                    <li><a href="../../index.html#materials">Материалы</a></li>
+                    <li><a href="../../index.html#links">Ссылки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <a href="../../index.html" class="back-link"><i class="fas fa-arrow-left"></i> На главную</a>
+            <div id="tournament-content">
+                <!-- Заполняется через JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Age of Sigmar Belarus. Фанатский проект.</p>
+        </div>
+    </footer>
+
+    <script src="../../js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            renderTournament('data.json');
+        });
+    </script>
+</body>
+</html>
