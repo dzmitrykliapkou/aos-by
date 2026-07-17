@@ -70,7 +70,7 @@ function renderGrid(){
     filtered.forEach(article => {
 
         const card = document.createElement("a");
-        card.href = `article.html?slug=${encodeURIComponent(article.slug)}`;
+        card.href = `articles/${article.slug}.html`;
         card.className = "material-card";
 
         card.innerHTML = `
