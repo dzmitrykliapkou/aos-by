@@ -11,4 +11,4 @@
 
 После этого отправьте заявку на участие главе местной церкви Наффла в телеграме: @ramonak90
 
-
+<a href="../tournaments/blood-bowl-august-cup-2026/" class="btn-sm"><i class="fas fa-trophy"></i> К странице турнира</a>
