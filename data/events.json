@@ -8,11 +8,12 @@
         "url": "tournaments/vstrechaem-po-oblojke-2026/"
     },
     {
-        "title": "Одиночный турнир «Пока без названия»",
+        "title": "Сольный турнир по Age of Sigmar «Новый Король»",
         "date": "2026-08-01",
         "category": "Турнир",
         "location": "Клуб «Логово Дракона»",
-        "organizer": "Виталик"
+        "organizer": "Виталик",
+        "url": "tournaments/new-king-2026/"
     },
     {
         "title": "День Варгеймов",

@@ -27,5 +27,15 @@
         "author": "AoS Belarus",
         "cover": "images/articles/bloodbowl-august-cup-2026-cover.png",
         "mdFile": "articles/news/bloodbowl0826.md"
+    },
+    {
+        "slug": "new-king-2026",
+        "title": "Открыта регистрация на сольный турнир «Новый Король»!",
+        "excerpt": "",
+        "tags": ["новость"],
+        "date": "2026-07-17",
+        "author": "AoS Belarus",
+        "cover": "images/articles/new-king-cover.png",
+        "mdFile": "articles/news/newking0826.md"
     }
 ]
