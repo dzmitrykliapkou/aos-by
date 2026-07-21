@@ -1,9 +1,9 @@
 media: images
 content:
-  - name: pages
-    label: Pages
+  - name: Articles
+    label: Articles
     type: collection
-    path: docs
+    path: articles
     fields:
       - name: title
         type: string
