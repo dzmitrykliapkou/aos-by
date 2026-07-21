@@ -56,6 +56,9 @@ content:
             type: string
           - name: author
             label: Автор
+            type: string
+          - name: date
+            label: Дата
           - name: body
             type: rich-text
       - name: metadata
