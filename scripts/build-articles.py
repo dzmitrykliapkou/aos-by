@@ -37,6 +37,14 @@ def escape_attr(value) -> str:
             .replace(">", "&gt;")
     )
 
+def strip_frontmatter(md_text: str) -> str:
+    if md_text.startswith("---"):
+        parts = md_text.split("---", 2)
+
+        if len(parts) == 3:
+            return parts[2].lstrip("\n")
+
+    return md_text
 
 def render_markdown(md_text: str) -> str:
     return markdown.markdown(
@@ -162,7 +170,7 @@ def main():
         with open(md_path, "r", encoding="utf-8") as f:
             md_text = f.read()
 
-        body_html = render_markdown(md_text)
+        body_html = render_markdown(strip_frontmatter(md_text))
         html = build_page(article, body_html)
 
         out_path = os.path.join(OUTPUT_DIR, f"{article['slug']}.html")
