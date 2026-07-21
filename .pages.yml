@@ -48,6 +48,8 @@ content:
         type: collection
         path: articles
         subfolders: true
+        view:
+          fields: [title, author, date]
         fields:
           - name: title
             label: Название
