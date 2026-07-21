@@ -59,6 +59,7 @@ content:
             type: string
           - name: date
             label: Дата
+            type: date
           - name: body
             type: rich-text
       - name: metadata
