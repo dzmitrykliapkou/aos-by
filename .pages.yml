@@ -4,6 +4,26 @@ media:
     extensions: [md]
     input: articles/news
     output: articles/news
+  - name: guides
+    label: Гайды
+    extensions: [md]
+    input: articles/guides
+    output: articles/guides
+  - name: lore
+    label: Лор
+    extensions: [md]
+    input: articles/lore
+    output: articles/lore
+  - name: reports
+    label: Репорты
+    extensions: [md]
+    input: articles/reports
+    output: articles/reports
+  - name: images
+    label: Картинки
+    extensions: [png, jpg, webp, jpeg]
+    input: images
+    output: images
 content:
   - name: calendar
     label: Календарь Ивентов
