@@ -1,5 +1,5 @@
 media:
-  - name: Articles Images
+  - name: Images
     label: Articles
     rename: safe
     extensions: [png, jpg, webp, jpeg]
