@@ -48,8 +48,6 @@ content:
         type: collection
         path: articles
         subfolders: true
-        view:
-          layout: tree
         fields:
           - name: title
             type: string
