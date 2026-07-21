@@ -35,6 +35,8 @@ content:
         path: data/articles.json
         format: json
         list: true
+        operations:
+          delete: false
         fields:
           - name: slug
             type: string
