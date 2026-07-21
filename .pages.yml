@@ -43,7 +43,11 @@ content:
     label: Статьи и Новости
     type: group
     items:
-      - name: data
+      - name: text
+        label: Тексты статей
+        type: collection
+        path: articles
+      - name: metadata
         label: Метаданные статей
         type: file
         path: data/articles.json
