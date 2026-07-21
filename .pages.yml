@@ -20,12 +20,11 @@ content:
           format: "yyyy-MM-dd"
       - name: category
         label: Category
-        type: string
+        type: select
         required: true
-        description: "Категория ивента (с большой буквы). Например, \"Турнир\", \"Открытый день\". Для турнира указывать обязательно"
-        pattern: 
-          regex: "^[А-ЯЁ][а-яё]+$"
-          message: "Используйте кириллицу и начинайте с заглавной буквы"
+        description: "Категория ивента"
+        options:
+          values: ["Турнир", "Открытый день", "Игродень", "Хобби-день", "Мастер-класс"]
       - name: location
         label: Location
         type: string
