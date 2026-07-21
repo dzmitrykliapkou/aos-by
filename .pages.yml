@@ -1,55 +1,82 @@
-media:
-  - name: articles_images
-    label: Articles
-    rename: safe
-    extensions: [png, jpg, webp, jpeg]
-    commit:
-      templates:
-        create: "chore(media): add {filename}"
-        update: "chore(media): update {filename}"
-        delete: "chore(media): remove {filename}"
-        rename: "chore(media): rename {oldFilename} -> {newFilename}"
-    input: images
-    output: images/articles
-    actions:
-      - name: optimize-images
-        label: Optimize images
-        workflow: pages-cms-media-action.yml
 content:
-  - name: News
-    label: News
-    type: group
-    items:
-      - name: text
-        label: MD-files
-        type: collection
-        path: articles/news
-        fields:
-          - name: title
-            type: string
-          - name: body
-            type: rich-text
-      - name: data
-        label: JSON
-        type: file
-        path: data/articles.json
-        format: json
-        list: true
-        operations:
-          delete: false
-        fields:
-          - name: slug
-            type: string
-          - name: title
-            type: string
-          - name: excerpt
-            type: string
-          - name: tags
-            type: string
-            list: true
-          - name: date
-            type: date
-          - name: author
-            type: string
-          - name: mdFile
-            type: file
+  - name: calendar
+    label: Events Calendar
+    type: file
+    path: data/events.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: "Название ивента"
+      - name: date
+        label: Date
+        type: date
+        required: true
+        description: "Дата проведения"
+        options:
+          format: "yyyy-MM-dd"
+          min: "2026-07-21"
+      - name: category
+        label: Category
+        type: string
+        required: true
+        description: "Категория ивента (с большой буквы). Например, \"Турнир\", \"Открытый день\". Для турнира указывать обязательно"
+        pattern: 
+          regex: "^[А-ЯЁ][а-яё]+$"
+          message: "Используйте кириллицу и начинайте с заглавной буквы"
+      - name: location
+        label: Location
+        type: string
+        required: true
+        description: "Место проведения ивента"
+      - name: organizer
+        label: Organizer
+        type: string
+        required: true
+        description: "Организатор ивента"
+      - name: url
+        label: URL
+        type: string
+        description: "Заполняется только после создания страницы ивента!"
+  # - name: News
+  #   label: News
+  #   type: group
+  #   items:
+  #     - name: text
+  #       label: MD-files
+  #       type: collection
+  #       path: articles/news
+  #       fields:
+  #         - name: title
+  #           type: string
+  #         - name: body
+  #           type: rich-text
+  #     - name: data
+  #       label: JSON
+  #       type: file
+  #       path: data/articles.json
+  #       format: json
+  #       list: true
+  #       operations:
+  #         delete: false
+  #       fields:
+  #         - name: slug
+  #           type: string
+  #         - name: title
+  #           type: string
+  #         - name: excerpt
+  #           type: string
+  #         - name: tags
+  #           type: string
+  #           list: true
+  #         - name: date
+  #           type: date
+  #         - name: author
+  #           type: string
+  #         - name: mdFile
+  #           type: file
