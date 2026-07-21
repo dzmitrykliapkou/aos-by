@@ -48,8 +48,11 @@ content:
         type: collection
         path: articles
         subfolders: true
-        layout: tree
+        view:
+          layout: tree
         fields:
+          - name: title
+            type: string
           - name: body
             type: rich-text
       - name: metadata
