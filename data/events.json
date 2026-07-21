@@ -1,41 +1,41 @@
 [
-    {
-        "title": "Командный турнир «Встречаем по обложке»",
-        "date": "2026-07-12",
-        "category": "Турнир",
-        "location": "Клуб «Логово Дракона»",
-        "organizer": "Артем",
-        "url": "tournaments/vstrechaem-po-oblojke-2026/"
-    },
-    {
-        "title": "Сольный турнир по Age of Sigmar «Новый Король»",
-        "date": "2026-08-01",
-        "category": "Турнир",
-        "location": "Клуб «Логово Дракона»",
-        "organizer": "Виталик",
-        "url": "tournaments/new-king-2026/"
-    },
-    {
-        "title": "День Варгеймов",
-        "date": "2026-07-26",
-        "category": "Открытый день",
-        "location": "Клуб «Логово Дракона»",
-        "organizer": "Роман",
-        "url": "articles/wargames-day.html"
-    },
-    {
-        "title": "Одиночный турнир «Пока без названия»",
-        "date": "2026-08-29",
-        "category": "Турнир",
-        "location": "Клуб «Логово Дракона»",
-        "organizer": "Виталик"
-    },
-    {
-        "title": "Blood Bowl Жнiвень Cup",
-        "date": "2026-08-15",
-        "category": "Турнир",
-        "location": "Клуб «Логово Дракона»",
-        "organizer": "Роман",
-        "url": "tournaments/blood-bowl-august-cup-2026/"
-    }
+  {
+    "title": "Командный турнир по Warhammer: Age of Sigmar «Встречаем по обложке»",
+    "date": "2026-07-12",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Артем",
+    "url": "tournaments/vstrechaem-po-oblojke-2026/"
+  },
+  {
+    "title": "Одиночный турнир по Warhammer: Age of Sigmar «Новый Король»",
+    "date": "2026-08-01",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Виталик",
+    "url": "tournaments/new-king-2026/"
+  },
+  {
+    "title": "День Варгеймов",
+    "date": "2026-07-26",
+    "category": "Открытыйдень",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Роман",
+    "url": "articles/wargames-day.html"
+  },
+  {
+    "title": "Blood Bowl Жнiвень Cup",
+    "date": "2026-08-15",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Роман",
+    "url": "tournaments/blood-bowl-august-cup-2026/"
+  },
+  {
+    "title": "Одиночный турнир по Warhammer: Age of Sigmar «Пора в Школу»",
+    "date": "2026-08-29",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Роман"
+  }
 ]
