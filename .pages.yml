@@ -132,6 +132,12 @@ content:
             label: Автор
             description: "Имя автора или название команды, разместившей материал."
             required: true
+          - name: cover
+            type: file
+            label: "Картинка для обложки"
+            options:
+              media: images
+              rename: safe
           - name: mdFile
             type: file
             label: Файл статьи (Markdown)
