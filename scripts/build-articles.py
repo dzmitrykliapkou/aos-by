@@ -141,7 +141,7 @@ def build_page(article: dict, body_html: str) -> str:
 def main():
 
     if not os.path.exists(ARTICLES_JSON):
-        print(f"Не найден файл: {ARTICLES_JSON}")
+        print(f"File not found: {ARTICLES_JSON}")
         sys.exit(1)
 
     with open(ARTICLES_JSON, "r", encoding="utf-8") as f:
@@ -156,7 +156,7 @@ def main():
         md_path = os.path.join(ROOT, article["mdFile"])
 
         if not os.path.exists(md_path):
-            print(f"Пропущена статья \"{article['slug']}\": не найден файл {article['mdFile']}")
+            print(f"\"{article['slug']}\" is missing: {article['mdFile']} not found")
             continue
 
         with open(md_path, "r", encoding="utf-8") as f:
@@ -172,7 +172,7 @@ def main():
         print(f"✓ articles/{article['slug']}.html")
         count += 1
 
-    print(f"\nГотово: собрано {count} страниц из {len(articles)} статей.")
+    print(f"\nDone: {count} pages generated out of {len(articles)} articles.")
 
 
 if __name__ == "__main__":
