@@ -18,10 +18,18 @@ media:
 content:
   - name: News
     label: News
-    type: collection
-    path: articles/news
-    fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+    type: group
+    items:
+      - name: text
+        label: MD-files
+        type: collection
+        path: articles/news
+        fields:
+          - name: title
+            type: string
+          - name: body
+            type: rich-text
+      - name: data
+        label: JSON
+        type: file
+        path: data/articles.json
