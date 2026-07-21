@@ -5,6 +5,10 @@ media:
     extensions: [png, jpg, webp, jpeg]
     input: images
     output: images/articles
+    actions:
+      - name: optimize-images
+        label: Optimize images
+        workflow: pages-cms-media-action.yml
 content:
   - name: News
     label: News
