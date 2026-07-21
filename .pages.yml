@@ -48,8 +48,8 @@ content:
             type: string
             list: true
           - name: date
-            type: string
+            type: date
           - name: author
             type: string
           - name: mdFile
-            type: string
+            type: file
