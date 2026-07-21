@@ -47,6 +47,7 @@ content:
         label: Тексты статей
         type: collection
         path: articles
+        subfolders: true
       - name: metadata
         label: Метаданные статей
         type: file
