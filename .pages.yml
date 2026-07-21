@@ -5,8 +5,6 @@ content:
     path: data/events.json
     format: json
     list: true
-    operations:
-      delete: false
     fields:
       - name: title
         label: Title
