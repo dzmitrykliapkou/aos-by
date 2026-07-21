@@ -1,3 +1,9 @@
+media:
+  - name: news
+    label: Новости
+    extensions: [md]
+    input: articles/news
+    output: articles/news
 content:
   - name: calendar
     label: Календарь Ивентов
