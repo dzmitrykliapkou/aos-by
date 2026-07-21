@@ -7,8 +7,8 @@ media:
   - name: guides
     label: Гайды
     extensions: [md]
-    input: articles/guides
-    output: articles/guides
+    input: articles/guide
+    output: articles/guide
   - name: lore
     label: Лор
     extensions: [md]
