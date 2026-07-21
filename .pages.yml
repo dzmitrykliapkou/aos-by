@@ -33,3 +33,21 @@ content:
         label: JSON
         type: file
         path: data/articles.json
+        format: json
+        list: true
+        fields:
+          - name: slug
+            type: string
+          - name: title
+            type: string
+          - name: excerpt
+            type: string
+          - name: tags
+            type: string
+            list: true
+          - name: date
+            type: string
+          - name: author
+            type: string
+          - name: mdFile
+            type: string
