@@ -1,18 +1,3 @@
-"""
-Генератор статичных страниц статей.
-
-Читает data/articles.json, для каждой статьи рендерит markdown в HTML
-и сохраняет готовую самостоятельную страницу в articles/<slug>.html
-с корректными Open Graph тегами — чтобы мессенджеры (Telegram, WhatsApp
-и т.д.) могли строить превью при пересылке ссылки.
-
-Установка зависимости (один раз):
-    pip install markdown --break-system-packages
-
-Запуск (из корня проекта, там же, где index.html):
-    python3 scripts/build_articles.py
-"""
-
 import json
 import os
 import sys
@@ -21,7 +6,7 @@ from datetime import datetime
 try:
     import markdown
 except ImportError:
-    print("Не найден пакет 'markdown'. Установите его:")
+    print("'markdown' package not found. Install:")
     print("    pip install markdown --break-system-packages")
     sys.exit(1)
 
@@ -156,7 +141,7 @@ def build_page(article: dict, body_html: str) -> str:
 def main():
 
     if not os.path.exists(ARTICLES_JSON):
-        print(f"Не найден файл: {ARTICLES_JSON}")
+        print(f"File not found: {ARTICLES_JSON}")
         sys.exit(1)
 
     with open(ARTICLES_JSON, "r", encoding="utf-8") as f:
@@ -171,7 +156,7 @@ def main():
         md_path = os.path.join(ROOT, article["mdFile"])
 
         if not os.path.exists(md_path):
-            print(f"Пропущена статья \"{article['slug']}\": не найден файл {article['mdFile']}")
+            print(f"\"{article['slug']}\" is missing: {article['mdFile']} not found")
             continue
 
         with open(md_path, "r", encoding="utf-8") as f:
@@ -187,7 +172,7 @@ def main():
         print(f"✓ articles/{article['slug']}.html")
         count += 1
 
-    print(f"\nГотово: собрано {count} страниц из {len(articles)} статей.")
+    print(f"\nDone: {count} pages generated out of {len(articles)} articles.")
 
 
 if __name__ == "__main__":
