@@ -48,6 +48,9 @@ content:
         type: collection
         path: articles
         subfolders: true
+        fields:
+          - name: body
+            type: rich-text
       - name: metadata
         label: Метаданные статей
         type: file
