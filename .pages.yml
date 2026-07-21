@@ -1,6 +1,6 @@
 content:
   - name: calendar
-    label: Events Calendar
+    label: Календарь Ивентов
     type: file
     path: data/events.json
     format: json
@@ -39,40 +39,56 @@ content:
         label: URL
         type: string
         description: "Заполняется только после создания страницы ивента!"
-  # - name: News
-  #   label: News
-  #   type: group
-  #   items:
-  #     - name: text
-  #       label: MD-files
-  #       type: collection
-  #       path: articles/news
-  #       fields:
-  #         - name: title
-  #           type: string
-  #         - name: body
-  #           type: rich-text
-  #     - name: data
-  #       label: JSON
-  #       type: file
-  #       path: data/articles.json
-  #       format: json
-  #       list: true
-  #       operations:
-  #         delete: false
-  #       fields:
-  #         - name: slug
-  #           type: string
-  #         - name: title
-  #           type: string
-  #         - name: excerpt
-  #           type: string
-  #         - name: tags
-  #           type: string
-  #           list: true
-  #         - name: date
-  #           type: date
-  #         - name: author
-  #           type: string
-  #         - name: mdFile
-  #           type: file
+  - name: Articles
+    label: Статьи и Новости
+    type: group
+    items:
+      - name: data
+        label: Метаданные статей
+        type: file
+        path: data/articles.json
+        format: json
+        list: true
+        fields:
+          - name: slug
+            type: string
+            label: Идентификатор статьи (slug)
+            description: "Используется в адресе страницы. Только латинские буквы в нижнем регистре, цифры и дефисы."
+            options:
+              regex: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+              message: "Некорректный формат slug. Используйте только латинские буквы, цифры и дефисы."
+          - name: title
+            label: Заголовок статьи
+            description: "Название статьи, которое будет отображаться на странице и в списках материалов."
+            type: string
+            required: true
+          - name: excerpt
+            type: string
+            label: Краткое описание
+            description: "Небольшое описание статьи для превью и списка материалов."
+          - name: tags
+            label: Теги
+            description: "Выберите категории, которые описывают статью. Можно выбрать несколько. Для попадания статьи в раздел \"новости\" у нее должен быть тег \"новость\"."
+            type: select
+            options:
+              multiple: true
+              values: ["новость", "гайд", "новичкам", "лор", "правила", "перевод", "репорт", "фото"]
+              min: 1
+            required: true
+          - name: date
+            type: date
+            label: Дата публикации
+            description: "Дата, которая будет отображаться как дата выхода статьи."
+            options:
+              format: "yyyy-MM-dd"
+            required: true
+          - name: author
+            type: string
+            label: Автор
+            description: "Имя автора или название команды, разместившей материал."
+            required: true
+          - name: mdFile
+            type: file
+            label: Файл статьи (Markdown)
+            description: "Путь к файлу с текстом статьи в формате Markdown. Например: articles/news/my-article.md"
+            required: true
