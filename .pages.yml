@@ -48,6 +48,7 @@ content:
         type: collection
         path: articles
         subfolders: true
+        layout: tree
         fields:
           - name: body
             type: rich-text
