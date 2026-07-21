@@ -3,6 +3,12 @@ media:
     label: Articles
     rename: safe
     extensions: [png, jpg, webp, jpeg]
+    commit:
+      templates:
+        create: "chore(media): add {filename}"
+        update: "chore(media): update {filename}"
+        delete: "chore(media): remove {filename}"
+        rename: "chore(media): rename {oldFilename} -> {newFilename}"
     input: images
     output: images/articles
     actions:
