@@ -1,9 +1,9 @@
 media: images
 content:
-  - name: Articles
-    label: Articles
+  - name: News
+    label: News
     type: collection
-    path: articles
+    path: articles/news
     fields:
       - name: title
         type: string
