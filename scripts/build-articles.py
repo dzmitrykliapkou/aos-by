@@ -1,18 +1,3 @@
-"""
-Генератор статичных страниц статей.
-
-Читает data/articles.json, для каждой статьи рендерит markdown в HTML
-и сохраняет готовую самостоятельную страницу в articles/<slug>.html
-с корректными Open Graph тегами — чтобы мессенджеры (Telegram, WhatsApp
-и т.д.) могли строить превью при пересылке ссылки.
-
-Установка зависимости (один раз):
-    pip install markdown --break-system-packages
-
-Запуск (из корня проекта, там же, где index.html):
-    python3 scripts/build_articles.py
-"""
-
 import json
 import os
 import sys
@@ -21,7 +6,7 @@ from datetime import datetime
 try:
     import markdown
 except ImportError:
-    print("Не найден пакет 'markdown'. Установите его:")
+    print("'markdown' package not found. Install:")
     print("    pip install markdown --break-system-packages")
     sys.exit(1)
 
