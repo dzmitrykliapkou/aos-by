@@ -50,7 +50,10 @@ content:
         subfolders: true
         fields:
           - name: title
+            label: Название
             type: string
+          - name: author
+            label: Автор
           - name: body
             type: rich-text
       - name: metadata
