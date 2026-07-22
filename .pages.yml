@@ -1,24 +1,9 @@
 media:
-  - name: news
-    label: Новости
+  - name: articles
+    label: Статьи
     extensions: [md]
-    input: articles/news
-    output: articles/news
-  - name: guides
-    label: Гайды
-    extensions: [md]
-    input: articles/guide
-    output: articles/guide
-  - name: lore
-    label: Лор
-    extensions: [md]
-    input: articles/lore
-    output: articles/lore
-  - name: reports
-    label: Репорты
-    extensions: [md]
-    input: articles/reports
-    output: articles/reports
+    input: articles
+    output: articles
   - name: images
     label: Картинки
     extensions: [png, jpg, webp, jpeg]
