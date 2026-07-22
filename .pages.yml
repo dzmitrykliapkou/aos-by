@@ -90,6 +90,7 @@ content:
             type: rich-text
             options:
               media: images
+              path: images
       - name: metadata
         label: Метаданные статей
         type: file
