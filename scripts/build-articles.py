@@ -56,6 +56,8 @@ def render_markdown(md_text: str) -> str:
 def build_page(article: dict, body_html: str) -> str:
 
     cover = article.get("cover")
+    excerpt = article.get("excerpt", "")
+
     absolute_cover = f"{SITE_URL}/{cover}" if cover else f"{SITE_URL}/favicon.png"
 
     page_url = f"{SITE_URL}/articles/{article['slug']}.html"
@@ -78,10 +80,10 @@ def build_page(article: dict, body_html: str) -> str:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{escape_attr(article['title'])} — Age of Sigmar Belarus</title>
-    <meta name="description" content="{escape_attr(article['excerpt'])}">
+    <meta name="description" content="{escape_attr(excerpt)}">
 
     <meta property="og:title" content="{escape_attr(article['title'])}">
-    <meta property="og:description" content="{escape_attr(article['excerpt'])}">
+    <meta property="og:description" content="{escape_attr(excerpt)}">
     <meta property="og:image" content="{absolute_cover}">
     <meta property="og:url" content="{page_url}">
     <meta property="og:type" content="article">
@@ -144,7 +146,6 @@ def build_page(article: dict, body_html: str) -> str:
 </body>
 </html>
 """
-
 
 def main():
 
