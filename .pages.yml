@@ -88,6 +88,8 @@ content:
             type: date
           - name: body
             type: rich-text
+            options:
+              media: images
       - name: metadata
         label: Метаданные статей
         type: file
