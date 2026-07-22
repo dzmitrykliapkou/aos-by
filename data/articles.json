@@ -58,5 +58,18 @@
     "author": "Роман",
     "cover": "images/articles/chronicles-of-ruin-passions/cover.png",
     "mdFile": "articles/lore/chronicles-of-ruin-passions.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-the-red-god",
+    "title": "Хроники Разрушения - Красный Бог",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-07-22",
+    "author": "Дмитрий",
+    "cover": "images/articles/aos_khornefiction-jul11-art-jjik3rpyit.jpg",
+    "mdFile": "articles/lore/2026-07-22-chronicles-of-ruin-the-red-god.md"
   }
 ]
