@@ -132,5 +132,4 @@ content:
             description: "Путь к файлу с текстом статьи в формате Markdown. Например: articles/news/my-article.md"
             required: true
             options:
-              path: articles
-              extensions: [md]
+              media: articles
