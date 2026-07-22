@@ -3,6 +3,8 @@ title: Chronicles of Ruin - Passions
 author: Warhammer Community, перевод - Роман
 date: 2026-07-22
 ---
+![passions](images/articles/chronicles-of-ruin-passions/6.jpg)
+
 ## Хроника Руин - Страсти
 
 ***Сцена готова, актеры готовы. Погрузитесь в этот бесплатный рассказ о гедонистах Слаанеш.***
