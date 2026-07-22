@@ -85,6 +85,7 @@ content:
         fields:
           - name: slug
             type: string
+            required: true
             label: Идентификатор статьи (slug)
             description: "Используется в адресе страницы. Только латинские буквы в нижнем регистре, цифры и дефисы."
             options:
