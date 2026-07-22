@@ -1,41 +1,62 @@
 [
-    {
-        "slug": "beginners-faq",
-        "title": "Часто задаваемые вопросы для новичков",
-        "excerpt": "Хотели спросить, но не знали, где?",
-        "tags": ["гайд","новичкам"],
-        "date": "2026-07-15",
-        "author": "AoS Belarus",
-        "mdFile": "articles/guide/beginners-faq.md"
-    },
-    {
-        "slug": "wargames-day",
-        "title": "WARGAMES DAY в клубе «Логово Дракона»",
-        "excerpt": "Ждём всех любителей настольных игр, миниатюр и эпических сражений!",
-        "tags": ["новость"],
-        "date": "2026-07-15",
-        "author": "AoS Belarus",
-        "cover": "images/articles/wargames-day-2026-cover.jpeg",
-        "mdFile": "articles/news/wargamesday26.md"
-    },
-    {
-        "slug": "blood-bowl-august",
-        "title": "Blood Bowl Жнiвень Cup!!!",
-        "excerpt": "Продолжаем продолжать наше спортивное поклонение Наффлу!",
-        "tags": ["новость"],
-        "date": "2026-07-16",
-        "author": "AoS Belarus",
-        "cover": "images/articles/bloodbowl-august-cup-2026-cover.png",
-        "mdFile": "articles/news/bloodbowl0826.md"
-    },
-    {
-        "slug": "new-king-2026",
-        "title": "Открыта регистрация на сольный турнир «Новый Король»!",
-        "excerpt": "",
-        "tags": ["новость"],
-        "date": "2026-07-17",
-        "author": "AoS Belarus",
-        "cover": "images/articles/new-king-cover.png",
-        "mdFile": "articles/news/newking0826.md"
-    }
+  {
+    "slug": "beginners-faq",
+    "title": "Часто задаваемые вопросы для новичков",
+    "excerpt": "Хотели спросить, но не знали, где?",
+    "tags": [
+      "гайд",
+      "новичкам"
+    ],
+    "date": "2026-07-15",
+    "author": "AoS Belarus",
+    "mdFile": "articles/guide/beginners-faq.md"
+  },
+  {
+    "slug": "wargames-day",
+    "title": "WARGAMES DAY в клубе «Логово Дракона»",
+    "excerpt": "Ждём всех любителей настольных игр, миниатюр и эпических сражений!",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-07-15",
+    "author": "AoS Belarus",
+    "cover": "images/articles/wargames-day-2026-cover.jpeg",
+    "mdFile": "articles/news/wargamesday26.md"
+  },
+  {
+    "slug": "blood-bowl-august",
+    "title": "Blood Bowl Жнiвень Cup!!!",
+    "excerpt": "Продолжаем продолжать наше спортивное поклонение Наффлу!",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-07-16",
+    "author": "AoS Belarus",
+    "cover": "images/articles/bloodbowl-august-cup-2026-cover.png",
+    "mdFile": "articles/news/bloodbowl0826.md"
+  },
+  {
+    "slug": "new-king-2026",
+    "title": "Открыта регистрация на сольный турнир «Новый Король»!",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-07-17",
+    "author": "AoS Belarus",
+    "cover": "images/articles/new-king-cover.png",
+    "mdFile": "articles/news/newking0826.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-passions",
+    "title": "Хроники Разрушения - Страсти",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-07-22",
+    "author": "Роман",
+    "cover": "images/articles/chronicles-of-ruin-passions/6.jpg",
+    "mdFile": "articles/lore/chronicles-of-ruin-passions.md"
+  }
 ]
