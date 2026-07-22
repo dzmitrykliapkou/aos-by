@@ -13,7 +13,7 @@ media:
     label: Картинки для статей
     extensions: [png, jpg, webp, jpeg]
     input: articles/images
-    output: articles/images
+    output: images
     rename: safe
 content:
   - name: calendar
