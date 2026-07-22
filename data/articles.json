@@ -71,5 +71,18 @@
     "author": "Дмитрий",
     "cover": "images/articles/aos_khornefiction-jul11-art-jjik3rpyit.jpg",
     "mdFile": "articles/lore/2026-07-22-chronicles-of-ruin-the-red-god.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-the-reaping",
+    "title": "Хроники Разрушения - Жатва",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-07-22",
+    "author": "Дмитрий",
+    "cover": "images/articles/aos_idonethfiction-jul04-art-xkamyo6762.jpg",
+    "mdFile": "articles/lore/2026-07-22-chronicles-of-ruin-the-reaping.md"
   }
 ]
