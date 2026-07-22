@@ -4,11 +4,17 @@ media:
     extensions: [md]
     input: articles
     output: articles
-  - name: images
-    label: Картинки
+  - name: covers
+    label: Обложки
     extensions: [png, jpg, webp, jpeg]
     input: images
     output: images
+  - name: images
+    label: Картинки для статей
+    extensions: [png, jpg, webp, jpeg]
+    input: articles/images
+    output: articles/images
+    rename: safe
 content:
   - name: calendar
     label: Календарь Ивентов
@@ -75,7 +81,6 @@ content:
             type: rich-text
             options:
               media: images
-              path: images
       - name: metadata
         label: Метаданные статей
         type: file
@@ -125,7 +130,7 @@ content:
             type: file
             label: "Картинка для обложки"
             options:
-              media: images
+              media: covers
               rename: safe
           - name: mdFile
             type: file
