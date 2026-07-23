@@ -264,3 +264,16 @@ body.modal-open{
         padding: 16px;
     }
 }
+
+@media (max-width: 480px){
+    .calendar-outer{
+        gap: 8px;
+    }
+    .calendar-arrow{
+        display: none;
+    }
+    .calendar-month{
+        min-width: 85vw;
+        padding: 14px;
+    }
+}
