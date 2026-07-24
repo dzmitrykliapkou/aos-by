@@ -40,6 +40,10 @@ jobs:
       - name: Generate article pages
         run: |
           python scripts/build-articles.py
+
+      - name: Generate tournament pages
+        run: |
+          python scripts/build-tournaments.py
       
       - name: Setup Pages
         uses: actions/configure-pages@v5

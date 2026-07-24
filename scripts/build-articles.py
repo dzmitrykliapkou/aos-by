@@ -62,6 +62,10 @@ def build_page(article: dict, body_html: str) -> str:
 
     page_url = f"{SITE_URL}/articles/{article['slug']}.html"
 
+    is_news = "новость" in article.get("tags", [])
+    back_href = "../index.html#news" if is_news else "../index.html#materials"
+    back_label = "К новостям" if is_news else "К материалам"
+
     tags_html = "".join(
         f'<span class="tag-badge">{escape_attr(tag)}</span>'
         for tag in article.get("tags", [])
@@ -117,7 +121,7 @@ def build_page(article: dict, body_html: str) -> str:
 
     <section class="section">
         <div class="container">
-            <a href="../index.html#materials" class="back-link"><i class="fas fa-arrow-left"></i> К материалам</a>
+            <a href="{back_href}" class="back-link"><i class="fas fa-arrow-left"></i> {back_label}</a>
 
             <article class="article">
                 {cover_html}
