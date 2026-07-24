@@ -7,7 +7,10 @@ const newsMonthNamesGenitive = ["января","февраля","марта","а
 if(newsGrid){
     fetch(NEWS_ARTICLES_URL)
         .then(r => r.json())
-        .then(articles => renderNews(articles))
+        .then(articles => {
+            renderNews(articles);
+            fixAnchorScroll();
+        })
         .catch(err => {
             console.error("Не удалось загрузить новости:", err);
             newsGrid.innerHTML = "<p>Не удалось загрузить новости.</p>";

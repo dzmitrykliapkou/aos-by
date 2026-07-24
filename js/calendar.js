@@ -26,6 +26,7 @@ fetch(EVENTS_URL)
         setupArrows();
         setupModal();
         scrollToToday();
+        fixAnchorScroll();
     })
     .catch(err => console.error("Не удалось загрузить события:", err));
 
