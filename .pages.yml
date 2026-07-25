@@ -40,38 +40,38 @@ content:
     list: true
     fields:
       - name: title
-        label: Title
+        label: Название
         type: string
         required: true
         description: "Название ивента"
       - name: date
-        label: Date
+        label: Дата
         type: date
         required: true
         description: "Дата проведения"
         options:
           format: "yyyy-MM-dd"
       - name: category
-        label: Category
+        label: Категория
         type: select
         required: true
         description: "Категория ивента"
         options:
           values: ["Турнир", "Открытый день", "Игродень", "Хобби-день", "Мастер-класс"]
       - name: location
-        label: Location
+        label: Место
         type: string
         required: true
         description: "Место проведения ивента"
       - name: organizer
-        label: Organizer
+        label: Организатор
         type: string
         required: true
         description: "Организатор ивента"
       - name: url
-        label: URL
+        label: Ссылка
         type: string
-        description: "Заполняется только после создания страницы ивента!"
+        description: "Ссылка на страницу ивента (должна быть заранее опубликована)."
   - name: Articles
     label: Статьи и Новости
     type: group
