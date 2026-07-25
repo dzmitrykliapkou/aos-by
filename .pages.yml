@@ -16,7 +16,7 @@ media:
     output: images
     rename: safe
   - name: tournament-images
-    label: Картинки для страниц турниров
+    label: Картинки для турниров
     extensions: [png, jpg, webp, jpeg]
     input: tournaments
     output: images
