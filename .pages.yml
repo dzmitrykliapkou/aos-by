@@ -26,6 +26,11 @@ media:
     extensions: [md]
     input: tournaments
     output: tournaments
+  - name: rosters
+    label: Ростеры
+    extensions: [txt]
+    input: tournaments
+    output: rosters
 content:
   - name: calendar
     label: Календарь Ивентов
