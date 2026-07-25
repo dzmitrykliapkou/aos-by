@@ -15,6 +15,17 @@ media:
     input: articles/images
     output: images
     rename: safe
+  - name: tournament-images
+    label: Картинки для страниц турниров
+    extensions: [png, jpg, webp, jpeg]
+    input: tournaments
+    output: images
+    rename: safe
+  - name: tournaments
+    label: Регламент турнира
+    extensions: [md]
+    input: tournaments
+    output: tournaments
 content:
   - name: calendar
     label: Календарь Ивентов
