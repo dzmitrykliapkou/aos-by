@@ -185,4 +185,3 @@ content:
         type: file
         path: data/tournaments.json
         format: json
-        list: true
