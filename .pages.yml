@@ -180,7 +180,7 @@ content:
             type: rich-text
             options:
               media: tournament-images
-      - name: metadata
+      - name: tournaments-metadata
         label: Метаданные турниров
         type: file
         path: data/tournaments.json
