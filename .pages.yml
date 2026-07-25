@@ -185,3 +185,93 @@ content:
         type: file
         path: data/tournaments.json
         format: json
+        list: true
+        fields:
+          - name: slug
+            type: string
+            required: true
+            label: Идентификатор турнира (slug)
+            description: "Используется в адресе страницы. Только латинские буквы в нижнем регистре, цифры и дефисы."
+            options:
+              regex: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+              message: "Некорректный формат slug. Используйте только латинские буквы, цифры и дефисы."
+          - name: name
+            label: Название турнира
+            description: "Название турнира, которое будет отображаться на странице и в календаре ивентов."
+            type: string
+            required: true
+          - name: date
+            type: date
+            label: Дата
+            description: "Дата проведения турнира."
+            options:
+              format: "yyyy-MM-dd"
+            required: true
+          - name: location
+            label: Место
+            description: "Место проведения турнира."
+            type: string
+            required: true
+          - name: organizer
+            label: Организатор
+            type: string
+            required: true
+            description: "Организатор турнира"
+          - name: finished
+            label: Статус
+            description: "true - турнир уже прошел; false - турнир еще не прошел. Управляет статусом турнира и положением его карточки на общей странице турниров а также наличием таблицы результатов на странице турнира."
+            type: boolean
+            default: false
+            required: true
+          - name: rulesLink
+            label: Ссылка на регламент
+            type: string
+            description: "Ссылка на регламент, опубликованный на стороннем ресурсе. Необязательное поле."
+          - name: rulesFile
+            label: Регламент
+            description: "Регламент для публикации на странице турнира. Заменяет ссылку на регламент."
+            type: file
+            options:
+              media: tournaments
+          - name: players
+            label: Участники
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{index} ({name})"
+            fields:
+              - name: name
+                label: Имя
+                type: string
+              - name: army
+                label: Фракция
+                type: string
+              - name: rosterFile
+                label: Ростер
+                type: file
+                options:
+                  media: rosters
+              - name: wins
+                label: Победы
+                type: number
+                options:
+                  min: 0
+                  max: 5
+              - name: losses
+                label: Поражения
+                type: number
+                options:
+                  min: 0
+                  max: 5
+              - name: draws
+                label: Ничьи
+                type: number
+                options:
+                  min: 0
+                  max: 5
+              - name: points
+                label: Очки
+                type: number
+                options:
+                  min: 0
