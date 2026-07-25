@@ -155,3 +155,33 @@ content:
             required: true
             options:
               media: articles
+  - name: tournaments
+    label: Турниры
+    type: group
+    items:
+      - name: rules
+        label: Регламенты
+        type: collection
+        path: tournaments
+        subfolders: true
+        view:
+          fields: [title, organizer, date]
+        fields:
+          - name: title
+            label: Название
+            type: string
+          - name: organizer
+            label: Организатор
+            type: string
+          - name: date
+            label: Дата
+            type: date
+          - name: body
+            type: rich-text
+            options:
+              media: tournament-images
+      - name: metadata
+        label: Метаданные турниров
+        type: file
+        path: data/tournaments.json
+        format: json
