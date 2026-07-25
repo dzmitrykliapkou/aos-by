@@ -19,7 +19,7 @@ media:
     label: Картинки для турниров
     extensions: [png, jpg, webp, jpeg]
     input: images
-    output: ../../images/
+    output: ../../images
     rename: safe
   - name: tournaments
     label: Регламент турнира
