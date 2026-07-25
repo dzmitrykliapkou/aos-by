@@ -180,3 +180,9 @@ content:
             type: rich-text
             options:
               media: tournament-images
+      - name: metadata
+        label: Метаданные турниров
+        type: file
+        path: data/tournaments.json
+        format: json
+        list: true
