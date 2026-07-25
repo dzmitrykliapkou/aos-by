@@ -25,7 +25,7 @@ media:
     label: Регламент турнира
     extensions: [md]
     input: tournaments
-    output: tournaments
+    output: /
   - name: rosters
     label: Ростеры
     extensions: [txt]
@@ -219,7 +219,7 @@ content:
             description: "Организатор турнира"
           - name: finished
             label: Статус
-            description: "true - турнир уже прошел; false - турнир еще не прошел. Управляет статусом турнира и положением его карточки на общей странице турниров а также наличием таблицы результатов на странице турнира."
+            description: "Активируйте, если турнир уже прошел. Если активировано, карточка турниров попадет в раздел \"Архив\" на старнице турниров, а на странице самого турнира отобразится таблица результатов."
             type: boolean
             default: false
             required: true
