@@ -1,3 +1,20 @@
+---
+date: 2026-07-28
+---
+Для регистрации вам необходимо будет заполнить лист ++[вашей команды](https://docs.google.com/spreadsheets/d/16qk2IZbXkIF8zlUoNQCCYZ5o0XF9i7y7Xjh1K9QfY88/edit?usp=sharing)++ по ссылке. Через добавление новой страницы (для новых команд) по указанному образцу и с честью и совестью актуализировать его данные. Для действующих команд продолжать свое существование. Это для того чтобы вы сами не потеряли своих игроков. После чего подать заявку главе местной церкви Наффла (телеграмм @ramonak90) на участие.
+
+
+
+Турнир будет проводиться: 15 августа
+
+Время начала: 12.00
+
+Стоимость участия: 30 бун
+
+Место проведения: Клуб “Логово Дракона”
+
+
+
 ## Составление ростера команд
 
 Для новых (1000 team value) и уже опытных команд будут доступны улучшения (только на время турнира):
@@ -13,19 +30,21 @@
 
 ## ТИР Команд
 
-| Tier 1              | Tier 2             | Tier 3         | Tier 4 |
-|:-------------------:|:------------------:|:--------------:|:------:|
-| Amazon              | Bretonnian         | Black Orc      | Gnome |
-| Chaos Dwarf         | Dwarf              | Chaos Chosen   | Goblin |
-| Dark Elf            | Elven Union        | Chaos Renegade | Halfling |
-| High Elf            | Human              | Khorne         | Ogre |
-| Lizardmen           | Imperial Nobility  | Nurgle         | Snotling |
-| Norse               | Necromantic Horror |                |  |
-| Old World Alliance  | Orc                |                |  |
-| Underworld Denizens | Shambling Undead   |                |  |
-| Wood Elf            | Skaven             |                |  |
-|                     | Tomb Kings         |                |  |
-|                     | Vampire            |                |  |
+
+| Tier 1 | Tier 2 | Tier 3 | Tier 4 |
+| ------------------- | ------------------ | -------------- | -------- |
+| Amazon | Bretonnian | Black Orc | Gnome |
+| Chaos Dwarf | Dwarf | Chaos Chosen | Goblin |
+| Dark Elf | Elven Union | Chaos Renegade | Halfling |
+| High Elf | Human | Khorne | Ogre |
+| Lizardmen | Imperial Nobility | Nurgle | Snotling |
+| Norse | Necromantic Horror |  |  |
+| Old World Alliance | Orc |  |  |
+| Underworld Denizens | Shambling Undead |  |  |
+| Wood Elf | Skaven |  |  |
+|  | Tomb Kings |  |  |
+|  | Vampire |  |  |
+
 
 Команды получают следующее количество очков навыков и ограничения в зависимости от своего тира:
 
@@ -50,8 +69,9 @@
 
 ## Расписание
 
+
 | Начало | Конец | Распорядок |
-|:------:|:-----:|------------|
+| ------ | ----- | --------------------------- |
 | 12:00 | 12:20 | Паринги и регистрация |
 | 12:30 | 14:30 | 1 тур |
 | 14:30 | 15:00 | Паринги и Большой перерыв |
@@ -59,3 +79,5 @@
 | 17:15 | 17:30 | Паринги и Перерыв |
 | 17:30 | 19:30 | 3 тур |
 | 19:30 | 20:00 | Подсчет очков и награждение |
+
+
