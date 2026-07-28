@@ -250,7 +250,7 @@ content:
               - name: rosterFile
                 label: Ростер
                 type: string
-                description: "Используйте \"rosters/<roster_file_name>.txt\"
+                description: "Используйте \"rosters/<roster_file_name>.txt\""
               - name: wins
                 label: Победы
                 type: number
