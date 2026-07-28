@@ -81,7 +81,7 @@
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "/rosters/sbgl_i.txt"
+        "rosterFile": "rosters/sbgl_i.txt"
       },
       {
         "name": "Павел",
