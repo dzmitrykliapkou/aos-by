@@ -76,62 +76,62 @@
       {
         "name": "Виталий",
         "army": "Skaven",
-        "rosterFile": "rosters/new-king-2026/rosters/skaven_v.txt"
+        "rosterFile": "rosters/skaven_v.txt"
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/new-king-2026/rosters/sbgl_i.txt"
+        "rosterFile": "/rosters/sbgl_i.txt"
       },
       {
         "name": "Павел",
         "army": "Sylvaneth",
-        "rosterFile": "rosters/new-king-2026/rosters/sylv_p.txt"
+        "rosterFile": "rosters/sylv_p.txt"
       },
       {
         "name": "Арсений",
         "army": "Daughters of Khaine",
-        "rosterFile": "rosters/new-king-2026/rosters/dok_ars.txt"
+        "rosterFile": "rosters/dok_ars.txt"
       },
       {
         "name": "Артём",
         "army": "Cities of Sigmar",
-        "rosterFile": "rosters/new-king-2026/rosters/cos_art.txt"
+        "rosterFile": "rosters/cos_art.txt"
       },
       {
         "name": "Макар",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/new-king-2026/rosters/lum_m.txt"
+        "rosterFile": "rosters/lum_m.txt"
       },
       {
         "name": "Данила",
         "army": "Hedonites of Slaanesh",
-        "rosterFile": "rosters/new-king-2026/rosters/hos_d.txt"
+        "rosterFile": "rosters/hos_d.txt"
       },
       {
         "name": "Глеб",
         "army": "Ironjawz",
-        "rosterFile": "rosters/new-king-2026/rosters/ironj_g.txt"
+        "rosterFile": "rosters/ironj_g.txt"
       },
       {
         "name": "Елизар",
         "army": "Stormcast Eternals",
-        "rosterFile": "rosters/new-king-2026/rosters/sce_e.txt"
+        "rosterFile": "rosters/sce_e.txt"
       },
       {
         "name": "Алексей",
         "army": "Fyreslayers",
-        "rosterFile": "rosters/new-king-2026/rosters/fyr_a.txt"
+        "rosterFile": "rosters/fyr_a.txt"
       },
       {
         "name": "Игнат",
         "army": "Gloomspite Gitz",
-        "rosterFile": "rosters/new-king-2026/rosters/gitz_i.txt"
+        "rosterFile": "rosters/gitz_i.txt"
       },
       {
         "name": "Тим",
         "army": "Flesh-eater Courts",
-        "rosterFile": "rosters/new-king-2026/rosters/fec_t.txt"
+        "rosterFile": "rosters/fec_t.txt"
       }
     ]
   },
