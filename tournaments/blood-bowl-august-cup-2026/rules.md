@@ -32,8 +32,8 @@ date: 2026-07-28
 
 
 | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
-| ------------------- | ------------------ | -------------- | -------- |
-| :Amazon: |: Bretonnian :|: Black Orc :|: Gnome :|
+|: ------------------- :|: ------------------ :|: -------------- :|: -------- :|
+| Amazon | Bretonnian | Black Orc | Gnome |
 | Chaos Dwarf | Dwarf | Chaos Chosen | Goblin |
 | Dark Elf | Elven Union | Chaos Renegade | Halfling |
 | High Elf | Human | Khorne | Ogre |
