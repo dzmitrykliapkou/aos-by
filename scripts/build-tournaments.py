@@ -41,6 +41,14 @@ def escape_attr(value) -> str:
 def escape_text(value) -> str:
     return escape_attr(value).replace("'", "&#039;")
 
+def strip_frontmatter(md_text: str) -> str:
+    if md_text.startswith("---"):
+        parts = md_text.split("---", 2)
+
+        if len(parts) == 3:
+            return parts[2].lstrip("\n")
+
+    return md_text
 
 def render_markdown(md_text: str) -> str:
     return markdown.markdown(
@@ -64,7 +72,7 @@ def build_rules_block(tournament: dict, folder: str) -> str:
             return ""
 
         with open(path, "r", encoding="utf-8") as f:
-            body_html = render_markdown(f.read())
+            body_html = render_markdown(strip_frontmatter(f.read()))
 
         return f"""
             <details class="rules-details">
