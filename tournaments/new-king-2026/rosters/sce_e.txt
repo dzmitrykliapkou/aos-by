@@ -1,0 +1,30 @@
+Пиво и стиль
+Grand Alliance: Order
+Faction: Stormcast Eternals
+Battle Formation: Sentinels of the Bleak Citadels
+Battle Tactics Cards: Smokescreen and Legend of the Parch
+Drops: 2
+
+Spell Lore: Lore of the Storm
+Prayer Lore: Prayers of the Stormhosts
+Faction Terrain: Stormreach Portal (20 pts)
+-----
+Regiment 1
+General's regiment
+1 x Ionus Cryptborn, Warden of Lost Souls (340 points)
+1 x Lord-Terminos (160 points)
+[Artefact]: Quicksilver Draught
+[Heroic Trait]: Envoy of the Heavens
+6 x Reclusians (290 points)
+[Scars of War]: Veterans of Amberstone Watch
+10 x Vindictors (180 points)
+----
+Regiment 2
+1 x Scourge of Aqshy: Iridan the Witness (360 points)
+6 x Vanguard-Raptors with Longstrike Crossbows (400 points)
+1 x Knight-Judicator with Gryph-hounds (130 points)
+3 x Praetors (120 points)
+----
+
+Wounds: 99
+2000/2000 Pts

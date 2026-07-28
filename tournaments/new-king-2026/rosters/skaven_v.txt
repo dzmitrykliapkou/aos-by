@@ -1,0 +1,31 @@
+Grand Alliance: Chaos
+Faction: Skaven
+Battle Formation: Fleshmeld Menagerie
+Battle Tactics Cards: Burning for Vengeance and Blazing Onslaught
+Drops: 2
+Spell Lore: Lore of Ruin
+Prayer Lore: Noxious Prayers
+Manifestation Lore: Manifestations of Doom
+Faction Terrain: Gnawhole
+-----
+Regiment 1
+General's regiment
+1 x Scourge of Aqshy: Grey Seer on Screaming Bell (330 points)
+[Artefact]: Warpstone Charm
+[Heroic Trait]: Scurry Away
+20 x Clanrats (150 points)
+20 x Clanrats (150 points)
+6 x Stormfiends (460 points)
+• 2 x Doomflayer Gauntlets
+• 2 x Grinderfists
+• 2 x Warpfire Projectors
+[Moulder Mutations]: Transplanted Brains
+1 x Brood Terror (220 points)
+----
+Regiment 2
+1 x Warlock Engineer (100 points)
+6 x Ratling Guns (340 points)
+6 x Warplock Jezzails (240 points)
+
+Wounds: 138
+1990/2000 Pts

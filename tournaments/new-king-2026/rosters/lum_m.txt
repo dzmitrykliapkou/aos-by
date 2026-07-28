@@ -1,0 +1,29 @@
+Grand Alliance: Order
+Faction: Lumineth Realm-lords
+Battle Formation: Warhost of Duality (20 pts)
+Battle Tactics Cards: Blazing Onslaught and Legend of the Parch
+Drops: 2
+
+Spell Lore: Lore of the Awakened Realms
+Manifestation Lore: Manifestations of Hysh
+Faction Terrain: Shrine Luminor
+-----
+Regiment 1
+General's regiment
+1 x Ellania and Ellathor, Eclipsian Warsages (310 points)
+1 x Vanari Lord Regent (110 points)
+[Artefact]: Phoenix Stone
+[Heroic Trait]: Acolyte of the Runes
+20 x Vanari Auralan Wardens (240 points)
+[Flawless Manoeuvres]: Patient Strike
+10 x Vanari Dawnriders (400 points)
+10 x Ydrilan Riverblades (150 points)
+----
+Regiment 2
+1 x Sevireth, Lord of the Seventh Wind (350 points)
+20 x Vanari Auralan Sentinels (300 points)
+1 x Vanari Starshard Ballista (100 points)
+----
+
+Wounds: 110
+1980/2000 Pts

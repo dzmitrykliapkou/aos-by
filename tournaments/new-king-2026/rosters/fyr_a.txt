@@ -1,0 +1,37 @@
+Grand Alliance: Order
+Faction: Fyreslayers
+Battle Formation: Warrior Kinband
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 5
+
+Prayer Lore: Vulkyn Gifts
+Manifestation Lore: Magmic Invocations
+Faction Terrain: Magmic Battleforge
+-----
+Regiment 1
+1 x Auric Runesmiter (90 points)
+10 x Auric Hearthguard (200 points)
+----
+Regiment 2
+General's regiment
+1 x Auric Runefather (130 points)
+[Artefact]: Draught of the Finest Magmalt
+1 x Battlesmith (100 points)
+[Heroic Trait]: Ash-beard
+10 x Hearthguard Berzerkers with Berzerker Broadaxes (200 points)
+10 x Hearthguard Berzerkers with Berzerker Broadaxes (200 points)
+----
+Regiment 3
+1 x Auric Runemaster (160 points)
+20 x Vulkite Berzerkers with Fyresteel Weapons (240 points)
+20 x Vulkite Berzerkers with Bladed Slingshields (280 points)
+----
+Regiment 4
+1 x Auric Flamekeeper (80 points)
+----
+Regiment Of Renown
+Gotrek Gurnisson (320 points)
+1 x Gotrek Gurnisson
+-----
+Wounds: 173
+2000/2000 Pts

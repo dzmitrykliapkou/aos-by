@@ -1,0 +1,34 @@
+Grand Alliance: Death
+Faction: Soulblight Gravelords
+Battle Formation: Bacchanal of Blood
+Battle Tactics Cards: Flanking Firestorm and Burning for Vengeance
+Drops: 4
+
+Spell Lore: Lore of Undeath
+Manifestation Lore: Aetherwrought Machineries
+Faction Terrain: Cursed Sepulchre
+-----
+Regiment 1
+General's regiment
+1 x Prince Vhordrai (470 points)
+8 x Askurgan Trueblades (140 points)
+8 x Askurgan Trueblades (140 points)
+5 x Blood Knights (220 points)
+5 x Blood Knights (220 points)
+----
+Regiment 2
+1 x Scourge of Aqshy: Vengorian Lord (310 points)
+[Artefact]: Shard of Night
+[Heroic Trait]: Immortal Ego
+6 x Vargheists (240 points)
+[Origins of Terrifying Folk Tales]: The Incarnadine Killers
+----
+Regiment 3
+1 x Vampire Lord (140 points)
+----
+Regiment 4
+1 x Lady Annika, the Thirsting Blade (100 points)
+----
+
+Wounds: 125
+1980/2000 Pts

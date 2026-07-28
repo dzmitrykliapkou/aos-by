@@ -1,0 +1,32 @@
+Grand Alliance: Chaos
+Faction: Hedonites of Slaanesh
+Battle Formation: Depraved Carnival
+Battle Tactics Cards: Siege of Ashes and Flanking Firestorm
+Drops: 3
+
+Spell Lore: Lore of Extravagance
+Manifestation Lore: Manifestations of Depravity
+Faction Terrain: Fane of Slaanesh
+-----
+Regiment 1
+General's regiment
+1 x Shalaxi Helbane (410 points)
+10 x Myrmidesh Painbringers (240 points)
+10 x Myrmidesh Painbringers (240 points)
+10 x Symbaresh Twinsouls (240 points)
+----
+Regiment 2
+1 x Shardspeaker of Slaanesh (120 points)
+1 x Lord of Hysteria (120 points)
+[Heroic Trait]: Incensed
+----
+Regiment 3
+3 x Thricefold Discord (180 points)
+[Artefact]: Bashful Visage
+1 x The Masque (120 points)
+10 x Blissbarb Seekers (320 points)
+*Obsession with control
+----
+
+Wounds: 140
+2000/2000 Pts

@@ -1,0 +1,36 @@
+Grand Alliance: Destruction
+Faction: Ironjawz
+Battle Formation: Ironjawz Brawl
+Battle Tactics Cards: Siege of Ashes and Burning for Vengeance
+Drops: 3
+
+Spell Lore: Lore of the Weird
+Prayer Lore: Warbeats
+Manifestation Lore: Manifestations of Gorkamorka
+Faction Terrain: Bossrokk Tower
+-----
+Regiment 1
+General's regiment
+1 x Kragnos, the End of Empires (580 points)
+1 x Zoggrok Anvilsmasha (160 points)
+• 1 x Grunta-tongs
+3 x Weirdbrute Wrekkaz (90 points)
+3 x Weirdbrute Wrekkaz (90 points)
+----
+Regiment 2
+1 x Warchanter (110 points)
+[Artefact]: Trophy Skulls
+[Heroic Trait]: An Eye For Da Fight
+10 x Scourge of Aqshy: Brutes (320 points)
+• 2 x Gore-choppa
+----
+Regiment 3
+1 x Weirdnob Shaman (110 points)
+1 x Maw-grunta Gougers (200 points)
+[Brutal Beasts]: Big 'Un
+10 x Scourge of Aqshy: Brutes (320 points)
+• 2 x Gore-choppa
+----
+
+Wounds: 127
+1980/2000 Pts
