@@ -249,9 +249,8 @@ content:
                 type: string
               - name: rosterFile
                 label: Ростер
-                type: file
-                options:
-                  media: rosters
+                type: string
+                description: "Используйте \"rosters/<roster_file_name>.txt\"
               - name: wins
                 label: Победы
                 type: number
