@@ -84,5 +84,14 @@
     "author": "Дмитрий",
     "cover": "images/articles/aos_idonethfiction-jul04-art-xkamyo6762.jpg",
     "mdFile": "articles/lore/2026-07-22-chronicles-of-ruin-the-reaping.md"
+  },
+  {
+    "slug": "new-king-2026-review",
+    "title": "Новый Король 2026 - обзор ростеров",
+    "excerpt": "Определился список участников битвы за звание Короля Age of Sigmar",
+    "tags": ["новость"],
+    "date": "2026-07-29",
+    "author": "Дмитрий",
+    "mdFile": "articles/news/new-king-2026-review.md"
   }
 ]
