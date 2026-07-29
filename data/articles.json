@@ -89,9 +89,23 @@
     "slug": "new-king-2026-review",
     "title": "Новый Король 2026 - обзор ростеров",
     "excerpt": "Определился список участников битвы за звание Короля Age of Sigmar",
-    "tags": ["новость"],
+    "tags": [
+      "новость"
+    ],
     "date": "2026-07-29",
     "author": "Дмитрий",
     "mdFile": "articles/news/new-king-2026-review.md"
+  },
+  {
+    "slug": "july-rules-update",
+    "title": "Июльское обновление правил Age of Sigmar",
+    "excerpt": "Смотрим вместе, что поменялось в правилах и в очковой стоимости отрядов",
+    "tags": [
+      "перевод",
+      "новость"
+    ],
+    "date": "2026-07-29",
+    "author": "Дмитрий",
+    "mdFile": "articles/news/2026-07-29-iyulskoe-obnovlenie-pravil-age-of-sigmar.md"
   }
 ]
