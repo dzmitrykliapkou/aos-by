@@ -719,3 +719,15 @@ body.banner-visible {
 .rules-body tbody tr:hover{
     background: #212121;
 }
+
+.video-embed {
+  position: relative;
+  max-width: 560px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
