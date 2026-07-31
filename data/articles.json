@@ -96,5 +96,18 @@
     "date": "2026-07-29",
     "author": "Дмитрий",
     "mdFile": "articles/news/2026-07-29-iyulskoe-obnovlenie-pravil-age-of-sigmar.md"
+  },
+  {
+    "slug": "Chronicles of Ruin – In the Bad Moon’s Light",
+    "title": "Хроники разрушения: Под светом Плохой Луны_",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-07-31",
+    "author": "Роман",
+    "cover": "images/inpainted-2.png",
+    "mdFile": "articles/Khronika_Ruin_Pod_Svetom_plokhoy_luny.md"
   }
 ]
