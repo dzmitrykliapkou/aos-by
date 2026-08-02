@@ -36,6 +36,14 @@
     "date": "2026-08-29",
     "category": "Турнир",
     "location": "Клуб «Логово Дракона»",
-    "organizer": "Роман"
+    "organizer": "Роман",
+    "url": "tournaments/pora-v-shkolu-2026/"
+  },
+  {
+    "title": "Одиночный турнир по Warhammer: Age of Sigmar «Пора в Школу»",
+    "date": "2026-10-10",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Артем"
   }
 ]
