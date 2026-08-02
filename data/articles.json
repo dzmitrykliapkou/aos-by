@@ -121,5 +121,17 @@
     "author": "Роман",
     "cover": "images/pora-v-shkolu-cover.jpg",
     "mdFile": "articles/news/pora-v-shkolu-2026.md"
+  },
+  {
+    "slug": "belarus-gt-2026-announcement",
+    "title": "Belarus Grand Tournament AoS 2026",
+    "excerpt": "История пишется здесь и сейчас",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-08-02",
+    "author": "Артем",
+    "cover": "images/belarus-gt-2026-cover.jpg",
+    "mdFile": "articles/news/belarus-gt-2026.md"
   }
 ]
