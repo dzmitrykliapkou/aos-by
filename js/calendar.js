@@ -34,6 +34,11 @@ function toIso(date){
     return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
 }
 
+function eventOccursOn(event, iso){
+    const end = event.endDate || event.date;
+    return iso >= event.date && iso <= end;
+}
+
 function buildCalendar(events){
 
     const currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
@@ -99,7 +104,7 @@ function createMonth(monthDate, events){
         const td = document.createElement("td");
 
         const iso = `${monthDate.getFullYear()}-${String(monthDate.getMonth()+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
-        const dayEvents = events.filter(e => e.date === iso);
+        const dayEvents = events.filter(e => eventOccursOn(e, iso));
 
         const dayNumber = document.createElement("span");
         dayNumber.className = "day-number";
@@ -153,12 +158,36 @@ function createMonth(monthDate, events){
     return card;
 }
 
+function formatEventDate(event){
+
+    const start = new Date(event.date + "T00:00:00");
+
+    if(!event.endDate || event.endDate === event.date){
+        return `${start.getDate()} ${monthNamesGenitive[start.getMonth()]} ${start.getFullYear()}`;
+    }
+
+    const end = new Date(event.endDate + "T00:00:00");
+
+    const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear();
+
+    if(sameMonth){
+        return `${start.getDate()}–${end.getDate()} ${monthNamesGenitive[start.getMonth()]} ${start.getFullYear()}`;
+    }
+
+    const sameYear = start.getFullYear() === end.getFullYear();
+    const startLabel = sameYear
+        ? `${start.getDate()} ${monthNamesGenitive[start.getMonth()]}`
+        : `${start.getDate()} ${monthNamesGenitive[start.getMonth()]} ${start.getFullYear()}`;
+    const endLabel = `${end.getDate()} ${monthNamesGenitive[end.getMonth()]} ${end.getFullYear()}`;
+
+    return `${startLabel} – ${endLabel}`;
+}
+
 function openEventModal(event){
 
     if(!modal) return;
 
-    const dateObj = new Date(event.date + "T00:00:00");
-    const dateLabel = `${dateObj.getDate()} ${monthNamesGenitive[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+    const dateLabel = formatEventDate(event);
 
     modalBadge.textContent = event.category || "Событие";
     modalTitle.textContent = event.title;
