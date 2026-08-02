@@ -143,5 +143,14 @@
     "organizer": "Роман",
     "finished": false,
     "rulesFile": "rules.md"
+  },
+  {
+    "slug": "pora-v-shkolu-2026",
+    "name": "Пора в школу",
+    "date": "2026-08-29",
+    "location": "Минск, клуб «Логово Дракона»",
+    "organizer": "Роман",
+    "finished": false,
+    "rulesFile": "2026-08-02-pora-v-shkolu.md"
   }
 ]
