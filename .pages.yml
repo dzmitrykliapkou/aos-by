@@ -32,6 +32,42 @@ media:
     input: tournaments
     output: rosters
 content:
+  - name: downloads
+    label: Загрузки
+    type: file
+    path: data/downloads.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        type: string
+        required: true
+        label: Идентификатор
+        pattern:
+          regex: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+          message: "Некорректный формат slug. Используйте только латинские буквы, цифры и дефисы."
+      - name: title
+        label: Название
+        type: string
+        required: true
+      - name: description
+        label: Описание
+        type: string
+        required: true
+      - name: category
+        label: Категория
+        type: string
+        required: true
+      - name: driveLink
+        label: Ссылка на файл
+        type: string
+        required: true
+      - name: date
+        type: date
+        label: Дата публикации
+        options:
+          format: "yyyy-MM-dd"
+        required: true
   - name: calendar
     label: Календарь Ивентов
     type: file
