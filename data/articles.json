@@ -109,5 +109,17 @@
     "author": "Роман",
     "cover": "images/inpainted-2.png",
     "mdFile": "articles/lore/2026-07-31-chronicles-of-ruin-in-the-bad-moons-light.md"
+  },
+  {
+    "slug": "pora-v-shkolu-2026-announcement",
+    "title": "Пора в школу!",
+    "excerpt": "Турнир по Age of Sigmar с живым редрафтом и разделением на классы",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-08-02",
+    "author": "Роман",
+    "cover": "images/pora-v-shkolu-cover.jpg",
+    "mdFile": "articles/news/pora-v-shkolu-2026.md"
   }
 ]
