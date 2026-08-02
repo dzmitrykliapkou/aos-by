@@ -1,10 +1,18 @@
 [
   {
-    "slug": "faq-newbie-cheatsheet",
-    "title": "Тест функционала",
-    "description": "Что-то",
-    "category": "гайд",
-    "driveLink": "https://drive.google.com/file/d/EXAMPLE_FILE_ID/view",
+    "slug": "scoring-sheet",
+    "title": "Лист подсчета очков 2026-27",
+    "description": "Удобные таблицы для внесения очков",
+    "category": "для игры",
+    "driveLink": "https://drive.google.com/file/d/1MSJH4k15fAMbqerNfHmjuIFSIRkpTaoV/view?usp=sharing",
+    "date": "2026-08-02"
+  },
+  {
+    "slug": "generals-handbook",
+    "title": "Перевод правил сезона 2026-27",
+    "description": "Сезонные правила, террейн, тактические задачи и карты сражений",
+    "category": "правила",
+    "driveLink": "https://drive.google.com/file/d/1ztifECxVr_OOV8ggSdycuA2kvQx7bm57/view?usp=sharing",
     "date": "2026-08-02"
   }
 ]
