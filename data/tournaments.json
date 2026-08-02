@@ -152,5 +152,14 @@
     "organizer": "Роман",
     "finished": false,
     "rulesFile": "2026-08-02-pora-v-shkolu.md"
+  },
+  {
+    "slug": "belarus-gt-2026",
+    "name": "Belarus Grand Tournament AoS 2026",
+    "date": "2026-10-10",
+    "location": "Минск, клуб «Логово Дракона»",
+    "organizer": "Артем",
+    "finished": false,
+    "rulesFile": "rules.md"
   }
 ]
