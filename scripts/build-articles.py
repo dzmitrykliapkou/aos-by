@@ -113,6 +113,7 @@ def build_page(article: dict, body_html: str) -> str:
                     <li><a href="../index.html#news">Новости</a></li>
                     <li><a href="../tournaments.html">Турниры</a></li>
                     <li><a href="../index.html#materials">Материалы</a></li>
+                    <li><a href="../downloads.html">Загрузки</a></li>
                     <li><a href="../index.html#links">Ссылки</a></li>
                 </ul>
             </nav>
