@@ -70,68 +70,116 @@
     "date": "2026-08-01",
     "location": "Минск, клуб «Логово Дракона»",
     "organizer": "Виталик",
-    "finished": false,
+    "finished": true,
     "rulesFile": "rules.md",
     "players": [
       {
         "name": "Виталий",
         "army": "Skaven",
-        "rosterFile": "rosters/skaven_v.txt"
+        "rosterFile": "rosters/skaven_v.txt",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "points": 39
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/sbgl_i.txt"
+        "rosterFile": "rosters/sbgl_i.txt",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "points": 38
       },
       {
         "name": "Павел",
         "army": "Sylvaneth",
-        "rosterFile": "rosters/sylv_p.txt"
+        "rosterFile": "rosters/sylv_p.txt",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "points": 28
       },
       {
         "name": "Арсений",
         "army": "Daughters of Khaine",
-        "rosterFile": "rosters/dok_ars.txt"
+        "rosterFile": "rosters/dok_ars.txt",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "points": 54
       },
       {
         "name": "Артём",
         "army": "Cities of Sigmar",
-        "rosterFile": "rosters/cos_art.txt"
+        "rosterFile": "rosters/cos_art.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 26
       },
       {
         "name": "Макар",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/lum_m.txt"
+        "rosterFile": "rosters/lum_m.txt",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "points": 48
       },
       {
         "name": "Данила",
         "army": "Hedonites of Slaanesh",
-        "rosterFile": "rosters/hos_d.txt"
+        "rosterFile": "rosters/hos_d.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 22
       },
       {
         "name": "Глеб",
         "army": "Ironjawz",
-        "rosterFile": "rosters/ironj_g.txt"
+        "rosterFile": "rosters/ironj_g.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 25
       },
       {
         "name": "Елизар",
         "army": "Stormcast Eternals",
-        "rosterFile": "rosters/sce_e.txt"
+        "rosterFile": "rosters/sce_e.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 32
       },
       {
         "name": "Алексей",
         "army": "Fyreslayers",
-        "rosterFile": "rosters/fyr_a.txt"
+        "rosterFile": "rosters/fyr_a.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 22
       },
       {
         "name": "Игнат",
         "army": "Gloomspite Gitz",
-        "rosterFile": "rosters/gitz_i.txt"
+        "rosterFile": "rosters/gitz_i.txt",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "points": 13
       },
       {
         "name": "Тим",
         "army": "Flesh-eater Courts",
-        "rosterFile": "rosters/fec_t.txt"
+        "rosterFile": "rosters/fec_t.txt",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "points": 12
       }
     ]
   },
