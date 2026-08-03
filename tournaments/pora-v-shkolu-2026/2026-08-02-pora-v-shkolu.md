@@ -35,7 +35,7 @@ date: 2026-08-29
 - Ростеры должны соответствовать актуальным правилам игры и собираются на 2000 pts.
 - На турнире действует [Arrow City FAQ](https://docs.google.com/document/d/1R9EuaA4_wUCOkJaebiYF6yPKa2KN4ZBbT6eQfHjxmLs/edit?usp=sharing).
 - Все опубликованные до даты сдачи ростеров FAQ должны приниматься во внимание
-- Сдавать ростеры в Telegram [@ramonak90](https://t.me/ramonak90)
+- Сдавать ростеры в Telegram [@RBWargameBot](@RBWargameBot)
 
 ## Судьи
 
