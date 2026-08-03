@@ -519,6 +519,144 @@ footer p {
     text-align: center;
 }
 
+/* Unified participants+results table */
+.player-name--toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: #f0f0f0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.player-name--toggle:hover {
+    color: #c9a84c;
+}
+
+.roster-toggle-icon {
+    font-size: 0.7rem;
+    color: #c9a84c;
+    transition: transform 0.2s;
+}
+
+.player-name--toggle[aria-expanded="true"] .roster-toggle-icon {
+    transform: rotate(180deg);
+}
+
+.roster-row td {
+    padding: 0;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.roster-row .roster {
+    padding: 15px 20px 20px;
+    background: #181818;
+}
+
+.games-cell {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+.game-score {
+    font-weight: 700;
+}
+
+.record-cell {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: #ddd;
+}
+
+.team-cell {
+    color: #c9a84c;
+    font-weight: 600;
+}
+
+.bcp-table tr.team-group-start td {
+    border-top: 2px solid #c9a84c;
+}
+
+/* Статистика по фракциям */
+.stats-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.stats-tab {
+    background: #2a2a2a;
+    color: #c9a84c;
+    border: 1px solid #c9a84c;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.stats-tab:hover {
+    background: rgba(201, 168, 76, 0.15);
+}
+
+.stats-tab.active {
+    background: #c9a84c;
+    color: #121212;
+    font-weight: 600;
+}
+
+.stats-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.stat-bar-row {
+    display: grid;
+    grid-template-columns: 180px 1fr 110px;
+    align-items: center;
+    gap: 14px;
+}
+
+.stat-bar-label {
+    font-size: 0.9rem;
+    color: #ddd;
+    text-align: right;
+}
+
+.stat-bar-track {
+    background: #2a2a2a;
+    border-radius: 4px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #8a6d1f, #c9a84c);
+    transition: width 0.5s ease;
+}
+
+.stat-bar-value {
+    font-size: 0.85rem;
+    color: #c9a84c;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .stat-bar-row {
+        grid-template-columns: 100px 1fr 90px;
+        gap: 8px;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {

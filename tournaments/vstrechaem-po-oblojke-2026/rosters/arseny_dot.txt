@@ -1,0 +1,36 @@
+Шестерка дисков настлько плоха, что мне пришлось взять 12
+
+Grand Alliance: Chaos
+Faction: Disciples of Tzeentch
+Battle Formation: Fated Blades
+Battle Tactics Cards: Siege of Ashes and Burning For Vengeance
+Drops: 4
+
+Spell Lore: Lore of Change
+Manifestation Lore: Manifestations of Tzeentch
+Faction Terrain: Argent Shard
+
+Regiment 1
+General's regiment
+1 x Fatemaster (150 points)
+[Heroic Trait]: Silver Summoner
+1 x Chaos Spawn of Tzeentch (60 points)
+
+Regiment 2
+1 x Tzaangor Shaman (130 points)
+9 x Jade Obelisk (100 points)
+• Antithete Bow
+
+Regiment 3
+1 x Curseling, Eye of Tzeentch (170 points)
+* Tome of Scorched Insight (20 points)
+20 x Tzaangors (340 points)
+* Vision of Defiant Supremacy (10 points)
+6 x Tzaangor Enlightened (400 points)
+6 x Tzaangor Enlightened (400 points)
+
+Regiment 4
+1 x Tzaangor Shaman (130 points)
+10 x Kairic Acolytes (90 points)
+
+2000/2000 Pts

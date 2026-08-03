@@ -39,6 +39,21 @@
         </div>
     </section>
 
+    <section class="section section-alt">
+        <div class="container">
+            <h2>Статистика</h2>
+            <p class="subtitle">Собрано по результатам турниров сезона 2026-27.</p>
+
+            <div class="stats-tabs" id="stats-tabs">
+                <button class="stats-tab active" data-tab="pickRate">Частота выбора</button>
+                <button class="stats-tab" data-tab="winRate">Винрейт</button>
+                <button class="stats-tab" data-tab="tournamentWins">Победы на турнирах</button>
+            </div>
+
+            <div id="stats-panel"></div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2026 Age of Sigmar Belarus. Фанатский проект.</p>
@@ -46,5 +61,6 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/tournaments.js"></script>
+    <script src="js/tournament-stats.js"></script>
 </body>
 </html>

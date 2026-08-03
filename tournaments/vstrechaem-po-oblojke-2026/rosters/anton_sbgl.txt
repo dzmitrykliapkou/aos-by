@@ -1,0 +1,27 @@
+Grand Alliance: Death
+Faction: Soulblight Gravelords
+Battle Formation: Bacchanal of Blood
+Battle Tactics Cards: siege of ashes и burning for vengeance
+Drops: 3
+
+Spell Lore: Lore of Undeath
+Manifestation Lore: Manifestations of the Grave
+Faction Terrain: Cursed Sepulchre
+
+Regiment 1
+General's regiment
+1 x Prince Vhordrai (470 points)
+3 x Vargheists (120 points)
+
+Regiment 2
+1 x Vampire Lord on Nightmare Steed (180 points)
+[Artefact]: Terminus Clock
+[Heroic Trait]: Immortal Ego
+10 x Blood Knights (440 points)
+10 x Blood Knights (440 points)
+
+Regiment 3
+1 x Vampire Lord (140 points)
+10 x Deathrattle Skeletons (90 points)
+10 x Deathrattle Skeletons (90 points)
+THE EMPTY GRAVEYARD (10 points)

@@ -1,0 +1,28 @@
+Grand Alliance: Order				
+Faction: Fyreslayers				
+Battle Formation: Scales of Vulcatrix				
+Battle Tactics Cards: Smokescreen and Siege of Ashe				
+Drops: 5				
+				
+Prayer Lore: Vulkyn Gifts				
+Manifestation Lore: Magmic Invocations				
+Faction Terrain: Magmic Battleforge				
+Regiment 1				
+General's regiment				
+1 x Auric Runefather on Magmadroth (320 points)				
+• Droth-helm				
+1 x Scourge of Aqshy Auric Runeson on Magmadroth (330 points)				
+• Marks of Vulcatrix: INTENSE FYRESTREAM (10 points)				
+Regiment 2				
+1 x Auric Runefather on Magmadroth (320 points)				
+• Ash-beard				
+1 x Scourge of Aqshy Auric Runeson on Magmadroth (330 points)				
+Regiment 3				
+1 x Auric Runesmiter on Magmadroth (280 points)				
+Regiment 4				
+1 x Auric Runesmiter (90 points)				
+Regiment Of Renown				
+Gotrek Gurnisson (320 points)				
+1 x Gotrek Gurnisson				
+Wounds: 83				
+2000/2000 Pts

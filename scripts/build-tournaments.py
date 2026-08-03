@@ -16,6 +16,14 @@ ROOT = os.getcwd()
 
 TOURNAMENTS_JSON = os.path.join(ROOT, "data", "tournaments.json")
 TOURNAMENTS_DIR = os.path.join(ROOT, "tournaments")
+FACTION_STATS_JSON = os.path.join(ROOT, "data", "faction-stats.json")
+
+MIN_GAMES_FOR_WINRATE = 3  # отсекаем фракции с 1-2 играми — слишком шумно для винрейта
+
+# Диапазон дат турниров, которые учитываются в статистике по фракциям.
+# Формат "YYYY-MM-DD". STATS_END_DATE = None -> без верхней границы (все турниры от START и позже).
+STATS_START_DATE = "2026-07-01"
+STATS_END_DATE = None
 
 MONTH_NAMES_GENITIVE = [
     "января", "февраля", "марта", "апреля", "мая", "июня",
@@ -95,23 +103,154 @@ def build_rules_block(tournament: dict, folder: str) -> str:
     return ""
 
 
-def build_player_block(player: dict, index: int, folder: str) -> str:
+GAME_RESULT_CLASS = {"win": "win", "loss": "loss", "draw": "draw"}
+
+
+def player_stats(player: dict) -> tuple:
+    """(wins, losses, draws, points). Считает из games[], если есть;
+    иначе падает обратно на старые ручные поля wins/losses/draws/points."""
+
+    games = player.get("games")
+
+    if games:
+        wins = sum(1 for g in games if g.get("result") == "win")
+        losses = sum(1 for g in games if g.get("result") == "loss")
+        draws = sum(1 for g in games if g.get("result") == "draw")
+        points = sum(g.get("points", 0) for g in games)
+        return wins, losses, draws, points
+
+    return (
+        player.get("wins", 0),
+        player.get("losses", 0),
+        player.get("draws", 0),
+        player.get("points", 0),
+    )
+
+
+def is_single_faction(army: str) -> bool:
+    """В командных турнирах (как vstrechaem-po-oblojke-2026) поле army у
+    "участника"-команды — это список армий через запятую ("Skaven, Ironjawz, ...").
+    Нельзя понять, какая из них выиграла/проиграла конкретную игру, поэтому
+    такие записи не участвуют в статистике по фракциям."""
+    return bool(army) and "," not in army
+
+
+def find_tournament_winner(players: list):
+    """Тот же порядок сортировки, что и в build_participants_table:
+    победы команды → очки команды → победы игрока → очки игрока."""
+
+    has_teams = any(p.get("team") for p in players)
+
+    team_totals = {}
+    if has_teams:
+        for p in players:
+            team = p.get("team", "")
+            w, l, d, pts = player_stats(p)
+            totals = team_totals.setdefault(team, [0, 0])
+            totals[0] += w
+            totals[1] += pts
+
+    def sort_key(p):
+        w, l, d, pts = player_stats(p)
+        if has_teams:
+            team = p.get("team", "")
+            team_wins, team_pts = team_totals.get(team, [0, 0])
+            return (-team_wins, -team_pts, team, -w, -pts)
+        return (-w, -pts)
+
+    return min(players, key=sort_key)
+
+
+def build_faction_stats(tournaments: list) -> dict:
+    """Агрегирует статистику по фракциям со всех турниров в data/tournaments.json."""
+
+    pick_count = {}
+    win_stats = {}  # faction -> [wins, losses, draws, games]
+    tournament_wins = {}
+    total_entries = 0
+
+    for tournament in tournaments:
+        date = tournament.get("date")
+        if not date:
+            continue
+        if date < STATS_START_DATE:
+            continue
+        if STATS_END_DATE and date > STATS_END_DATE:
+            continue
+
+        players = tournament.get("players", [])
+        if not players:
+            continue
+
+        eligible = [p for p in players if is_single_faction(p.get("army", ""))]
+
+        for p in eligible:
+            army = p["army"].strip()
+
+            pick_count[army] = pick_count.get(army, 0) + 1
+            total_entries += 1
+
+            w, l, d, pts = player_stats(p)
+            if w or l or d:
+                stats = win_stats.setdefault(army, [0, 0, 0, 0])
+                stats[0] += w
+                stats[1] += l
+                stats[2] += d
+                stats[3] += w + l + d
+
+        has_results = any(p.get("games") or p.get("points") is not None for p in players)
+        if tournament.get("finished") and has_results and eligible:
+            winner = find_tournament_winner(eligible)
+            army = winner["army"].strip()
+            tournament_wins[army] = tournament_wins.get(army, 0) + 1
+
+    pick_rate = [
+        {
+            "faction": faction,
+            "count": count,
+            "percent": round(count / total_entries * 100, 1) if total_entries else 0,
+        }
+        for faction, count in pick_count.items()
+    ]
+    pick_rate.sort(key=lambda x: -x["count"])
+
+    win_rate = [
+        {
+            "faction": faction,
+            "wins": s[0],
+            "losses": s[1],
+            "draws": s[2],
+            "games": s[3],
+            "percent": round(s[0] / s[3] * 100, 1) if s[3] else 0,
+        }
+        for faction, s in win_stats.items()
+        if s[3] >= MIN_GAMES_FOR_WINRATE
+    ]
+    win_rate.sort(key=lambda x: -x["percent"])
+
+    tournament_wins_list = [
+        {"faction": faction, "count": count} for faction, count in tournament_wins.items()
+    ]
+    tournament_wins_list.sort(key=lambda x: -x["count"])
+
+    return {
+        "totalEntries": total_entries,
+        "minGamesForWinrate": MIN_GAMES_FOR_WINRATE,
+        "dateRange": {"start": STATS_START_DATE, "end": STATS_END_DATE},
+        "pickRate": pick_rate,
+        "winRate": win_rate,
+        "tournamentWins": tournament_wins_list,
+    }
+
+
+def build_roster_cell(player: dict, folder: str, row_id: str, total_cols: int) -> tuple:
+    """Возвращает (html ячейки с именем, html доп. строки <tr> с ростером или '')."""
+
     name = escape_text(player.get("name", ""))
-    army = escape_text(player.get("army", ""))
     roster_file = player.get("rosterFile")
 
-    header = f"""
-        <span class="player-name">{index + 1}. {name}</span>
-        <span class="player-army">— {army}</span>
-    """
-
     if not roster_file:
-        # Нет ростера — просто строка без возможности раскрыть
-        return f"""
-            <div class="player-details player-details--static">
-                <div class="player-summary">{header}</div>
-            </div>
-        """
+        return f'<span class="player-name">{name}</span>', ""
 
     path = os.path.join(folder, roster_file)
     if not os.path.exists(path):
@@ -122,15 +261,37 @@ def build_player_block(player: dict, index: int, folder: str) -> str:
             roster_text = f.read()
         roster_html = f"<h4>Ростер</h4><pre>{escape_attr(roster_text)}</pre>"
 
-    return f"""
-        <details class="player-details">
-            <summary>{header}</summary>
-            <div class="roster">{roster_html}</div>
-        </details>
-    """
+    name_cell = (
+        f'<button type="button" class="player-name player-name--toggle" '
+        f'data-roster-target="{row_id}" aria-expanded="false">'
+        f'{name}<i class="fas fa-chevron-down roster-toggle-icon"></i>'
+        f"</button>"
+    )
+
+    roster_row = (
+        f'<tr class="roster-row" id="{row_id}" hidden>'
+        f'<td colspan="{total_cols}"><div class="roster">{roster_html}</div></td>'
+        f"</tr>"
+    )
+
+    return name_cell, roster_row
 
 
-def build_players_block(tournament: dict, folder: str) -> str:
+def build_games_cell(player: dict) -> str:
+    games = player.get("games")
+
+    if not games:
+        return "—"
+
+    parts = []
+    for g in games:
+        css_class = GAME_RESULT_CLASS.get(g.get("result"), "draw")
+        parts.append(f'<span class="game-score {css_class}">{g.get("points", 0)}</span>')
+
+    return "/".join(parts)
+
+
+def build_participants_table(tournament: dict, folder: str) -> str:
     players = tournament.get("players", [])
 
     html = f"<h2>Участники ({len(players)})</h2>"
@@ -138,54 +299,72 @@ def build_players_block(tournament: dict, folder: str) -> str:
     if not players:
         return html + "<p>Список участников пока не объявлен.</p>"
 
-    ordered = list(players)
-    if tournament.get("finished") and ordered[0].get("points") is not None:
-        ordered = sorted(ordered, key=lambda p: p.get("points", 0), reverse=True)
+    has_results = any(p.get("games") or p.get("points") is not None for p in players)
+    has_teams = any(p.get("team") for p in players)
 
-    for i, player in enumerate(ordered):
-        html += build_player_block(player, i, folder)
+    if has_results:
+        team_totals = {}
+        if has_teams:
+            for p in players:
+                team = p.get("team", "")
+                w, l, d, pts = player_stats(p)
+                totals = team_totals.setdefault(team, [0, 0])
+                totals[0] += w
+                totals[1] += pts
 
-    return html
+        def sort_key(p):
+            w, l, d, pts = player_stats(p)
+            if has_teams:
+                team = p.get("team", "")
+                team_wins, team_pts = team_totals.get(team, [0, 0])
+                return (-team_wins, -team_pts, team, -w, -pts)
+            return (-w, -pts)
 
+        ordered = sorted(players, key=sort_key)
+    else:
+        ordered = list(players)
 
-def build_results_block(tournament: dict) -> str:
-    players = tournament.get("players", [])
+    headers = ["Место", "Игрок", "Армия"]
+    if has_teams:
+        headers.append("Команда")
+    if has_results:
+        headers.append("Игры")
 
-    if not tournament.get("finished") or not players:
-        return ""
-    if not any(p.get("points") is not None for p in players):
-        return ""
-
-    ranked = sorted(players, key=lambda p: p.get("points", 0), reverse=True)
+    total_cols = len(headers)
 
     rows = ""
-    for i, p in enumerate(ranked):
-        rows += f"""
-            <tr>
-                <td class="rank">{i + 1}</td>
-                <td>{escape_text(p.get("name", ""))}</td>
-                <td>{escape_text(p.get("army", ""))}</td>
-                <td class="win">{p.get("wins", 0)}</td>
-                <td class="loss">{p.get("losses", 0)}</td>
-                <td class="draw">{p.get("draws", 0)}</td>
-                <td class="points">{p.get("points", 0)}</td>
-            </tr>
-        """
+    prev_team = object()  # заведомо не равен ни одной команде — маркер первой строки
+
+    for i, p in enumerate(ordered):
+        team = p.get("team")
+        new_team_group = has_teams and has_results and team != prev_team
+        prev_team = team
+
+        row_class = ' class="team-group-start"' if new_team_group and i > 0 else ""
+
+        roster_row_id = f"roster-{i}"
+        name_cell, roster_row = build_roster_cell(p, folder, roster_row_id, total_cols)
+
+        cells = [
+            f'<td class="rank">{i + 1}</td>',
+            f"<td>{name_cell}</td>",
+            f'<td>{escape_text(p.get("army", ""))}</td>',
+        ]
+
+        if has_teams:
+            cells.append(f'<td class="team-cell">{escape_text(team or "")}</td>')
+
+        if has_results:
+            cells.append(f'<td class="games-cell">{build_games_cell(p)}</td>')
+
+        rows += f"<tr{row_class}>{''.join(cells)}</tr>{roster_row}"
+
+    header_cells = "".join(f"<th>{h}</th>" for h in headers)
 
     return f"""
-        <h2 style="margin-top:40px;">Результаты</h2>
+        {html}
         <table class="bcp-table">
-            <thead>
-                <tr>
-                    <th>Место</th>
-                    <th>Игрок</th>
-                    <th>Армия</th>
-                    <th class="result-cell">W</th>
-                    <th class="result-cell">L</th>
-                    <th class="result-cell">D</th>
-                    <th>Очки</th>
-                </tr>
-            </thead>
+            <thead><tr>{header_cells}</tr></thead>
             <tbody>{rows}</tbody>
         </table>
     """
@@ -206,8 +385,7 @@ def build_page(tournament: dict, folder: str) -> str:
         <p><strong>Организатор:</strong> {escape_text(tournament['organizer'])}</p>
         {build_rules_block(tournament, folder)}
         <hr class="divider">
-        {build_players_block(tournament, folder)}
-        {build_results_block(tournament)}
+        {build_participants_table(tournament, folder)}
     """
 
     return f"""<!DOCTYPE html>
@@ -302,6 +480,11 @@ def main():
         count += 1
 
     print(f"\nDone: {count} pages generated out of {len(tournaments)} tournaments.")
+
+    stats = build_faction_stats(tournaments)
+    with open(FACTION_STATS_JSON, "w", encoding="utf-8") as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    print(f"✓ data/faction-stats.json ({stats['totalEntries']} записей по фракциям)")
 
 
 if __name__ == "__main__":
