@@ -1,0 +1,269 @@
+{
+  "totalEntries": 30,
+  "minGamesForWinrate": 3,
+  "dateRange": {
+    "start": "2026-07-01",
+    "end": null
+  },
+  "pickRate": [
+    {
+      "faction": "Soulblight Gravelords",
+      "count": 3,
+      "percent": 10.0
+    },
+    {
+      "faction": "Daughters of Khaine",
+      "count": 3,
+      "percent": 10.0
+    },
+    {
+      "faction": "Gloomspite Gitz",
+      "count": 3,
+      "percent": 10.0
+    },
+    {
+      "faction": "Ironjawz",
+      "count": 3,
+      "percent": 10.0
+    },
+    {
+      "faction": "Fyreslayers",
+      "count": 2,
+      "percent": 6.7
+    },
+    {
+      "faction": "Flesh-eater Courts",
+      "count": 2,
+      "percent": 6.7
+    },
+    {
+      "faction": "Sylvaneth",
+      "count": 2,
+      "percent": 6.7
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Helsmiths of Hashut",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Sons of Behemat",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Kharadron Overlords",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Disciples of Tzeentch",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Seraphon",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Skaven",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Cities of Sigmar",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Hedonites of Slaanesh",
+      "count": 1,
+      "percent": 3.3
+    },
+    {
+      "faction": "Stormcast Eternals",
+      "count": 1,
+      "percent": 3.3
+    }
+  ],
+  "winRate": [
+    {
+      "faction": "Sons of Behemat",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "games": 3,
+      "percent": 100.0
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "wins": 3,
+      "losses": 0,
+      "draws": 0,
+      "games": 3,
+      "percent": 100.0
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Helsmiths of Hashut",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Disciples of Tzeentch",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Seraphon",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Sylvaneth",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "percent": 66.7
+    },
+    {
+      "faction": "Skaven",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "percent": 66.7
+    },
+    {
+      "faction": "Daughters of Khaine",
+      "wins": 5,
+      "losses": 4,
+      "draws": 0,
+      "games": 9,
+      "percent": 55.6
+    },
+    {
+      "faction": "Fyreslayers",
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "games": 6,
+      "percent": 50.0
+    },
+    {
+      "faction": "Soulblight Gravelords",
+      "wins": 4,
+      "losses": 5,
+      "draws": 0,
+      "games": 9,
+      "percent": 44.4
+    },
+    {
+      "faction": "Gloomspite Gitz",
+      "wins": 4,
+      "losses": 5,
+      "draws": 0,
+      "games": 9,
+      "percent": 44.4
+    },
+    {
+      "faction": "Ironjawz",
+      "wins": 3,
+      "losses": 6,
+      "draws": 0,
+      "games": 9,
+      "percent": 33.3
+    },
+    {
+      "faction": "Cities of Sigmar",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "percent": 33.3
+    },
+    {
+      "faction": "Hedonites of Slaanesh",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "percent": 33.3
+    },
+    {
+      "faction": "Stormcast Eternals",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "percent": 33.3
+    },
+    {
+      "faction": "Flesh-eater Courts",
+      "wins": 1,
+      "losses": 5,
+      "draws": 0,
+      "games": 6,
+      "percent": 16.7
+    },
+    {
+      "faction": "Kharadron Overlords",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "games": 3,
+      "percent": 0.0
+    }
+  ],
+  "tournamentWins": [
+    {
+      "faction": "Gloomspite Gitz",
+      "count": 1
+    },
+    {
+      "faction": "Daughters of Khaine",
+      "count": 1
+    }
+  ]
+}

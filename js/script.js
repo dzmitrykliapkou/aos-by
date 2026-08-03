@@ -43,3 +43,16 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem(storageKey, "true");
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".player-name--toggle").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const row = document.getElementById(btn.getAttribute("data-roster-target"));
+            if (!row) return;
+
+            const expanded = btn.getAttribute("aria-expanded") === "true";
+            btn.setAttribute("aria-expanded", String(!expanded));
+            row.hidden = expanded;
+        });
+    });
+});
