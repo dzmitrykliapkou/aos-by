@@ -72,6 +72,58 @@ nav a:hover {
     color: #c9a84c;
 }
 
+nav a.nav-highlight {
+    color: #c9a84c;
+}
+
+.nav-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #121212;
+    background: #c9a84c;
+    border-radius: 10px;
+    vertical-align: middle;
+    animation: nav-badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes nav-badge-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.5); }
+    50% { box-shadow: 0 0 0 5px rgba(201, 168, 76, 0); }
+}
+
+.cs-empty {
+    color: #999;
+    font-style: italic;
+}
+
+.article-body .cs-leaderboard {
+    display: table;
+    table-layout: fixed;
+    width: 440px;
+    margin: 20px auto;
+}
+
+.cs-leaderboard th:nth-child(1),
+.cs-leaderboard td:nth-child(1) {
+    width: 90px;
+}
+
+.cs-leaderboard th:nth-child(2),
+.cs-leaderboard td:nth-child(2) {
+    width: 260px;
+}
+
+.cs-leaderboard th:nth-child(3),
+.cs-leaderboard td:nth-child(3) {
+    width: 90px;
+}
+
 /* Hero */
 .hero {
     background: linear-gradient(135deg, #1a1a1a 0%, #2c2416 100%);
