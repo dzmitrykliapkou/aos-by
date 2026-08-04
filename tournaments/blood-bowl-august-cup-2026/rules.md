@@ -1,5 +1,5 @@
 ---
-title: Blood Bowl Жнiвень Cup 2026
+title: Blood Bowl Жнiвень Cup 2026 - Отменен
 organizer: Роман
 date: 2026-07-28
 ---
