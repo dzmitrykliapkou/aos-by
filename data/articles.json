@@ -12,30 +12,6 @@
     "mdFile": "articles/guide/beginners-faq.md"
   },
   {
-    "slug": "wargames-day",
-    "title": "WARGAMES DAY в клубе «Логово Дракона»",
-    "excerpt": "Ждём всех любителей настольных игр, миниатюр и эпических сражений!",
-    "tags": [
-      "новость"
-    ],
-    "date": "2026-07-15",
-    "author": "AoS Belarus",
-    "cover": "images/articles/wargames-day-2026-cover.jpeg",
-    "mdFile": "articles/news/wargamesday26.md"
-  },
-  {
-    "slug": "blood-bowl-august",
-    "title": "Blood Bowl Жнiвень Cup!!!",
-    "excerpt": "Продолжаем продолжать наше спортивное поклонение Наффлу!",
-    "tags": [
-      "новость"
-    ],
-    "date": "2026-07-16",
-    "author": "AoS Belarus",
-    "cover": "images/articles/bloodbowl-august-cup-2026-cover.png",
-    "mdFile": "articles/news/bloodbowl0826.md"
-  },
-  {
     "slug": "chronicles-of-ruin-passions",
     "title": "Хроники Разрушения - Страсти",
     "excerpt": "Перевод рассказа из цикла от Warhammer Community",
