@@ -1,7 +1,8 @@
 [
-  { "name": "Артем", "points": 30 },
+  { "name": "Артем", "points": 32 },
   { "name": "Алексей", "points": 10 },
   { "name": "Илья", "points": 20 },
-  { "name": "Виталий", "points": 55 },
-  { "name": "Арсений", "points": 10 }
+  { "name": "Виталий", "points": 67 },
+  { "name": "Арсений", "points": 10 },
+  { "name": "Роман", "points": 12 }
 ]
