@@ -109,5 +109,18 @@
     "author": "Артем",
     "cover": "images/belarus-gt-2026-cover.jpg",
     "mdFile": "articles/news/belarus-gt-2026.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-the-law-of-meat",
+    "title": "Хроники разрушения: Закон Мяса",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-08-06",
+    "author": "Роман",
+    "cover": "images/inpainted.png",
+    "mdFile": "articles/lore/2026-08-06-chronicles-of-ruin-the-law-of-meat.md"
   }
 ]
