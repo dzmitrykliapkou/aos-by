@@ -122,5 +122,19 @@
     "author": "Роман",
     "cover": "images/inpainted.png",
     "mdFile": "articles/lore/2026-08-06-chronicles-of-ruin-the-law-of-meat.md"
+  },
+  {
+    "slug": "army-composition",
+    "title": "Как составить армию для игры в Age of Sigmar",
+    "excerpt": "Руководство по составлению ростера для новичков",
+    "tags": [
+      "гайд",
+      "новичкам",
+      "правила",
+      "перевод"
+    ],
+    "date": "2026-08-23",
+    "author": "Дмитрий",
+    "mdFile": "articles/guide/army-composition.md"
   }
 ]
