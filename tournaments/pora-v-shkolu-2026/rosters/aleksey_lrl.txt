@@ -1,0 +1,30 @@
+Grand Alliance: Order
+Faction: Lumineth Realm-lords
+Battle Formation: Pilgrims of Haixiah
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 3
+
+Spell Lore: Lore of Hysh
+Manifestation Lore: Manifestations of Hysh
+Faction Terrain: Shrine Luminor
+-----
+Regiment 1
+1 x Ellania and Ellathor, Eclipsian Warsages (310 points)
+20 x Vanari Auralan Sentinels (300 points)
+1 x Vanari Starshard Ballista (100 points)
+1 x Vanari Lord Regent (110 points)
+[Artefact]: Waystone
+[Heroic Trait]: Flawless Commander
+----
+Regiment 2
+1 x Lyrior Uthralle, Warden of Ymetrica (260 points)
+1 x The Light of Eltharion (300 points)
+10 x Vanari Bladelords (300 points)
+----
+Regiment Of Renown
+Gotrek Gurnisson (320 points)
+
+1 x Gotrek Gurnisson
+-----
+Wounds: 82
+2000/2000 Pts

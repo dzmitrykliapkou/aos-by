@@ -1,0 +1,36 @@
+Grand Alliance: Order
+Faction: Idoneth Deepkin
+Battle Formation: Akhelian Beastmasters (20 pts)
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 3
+
+Spell Lore: Lore of the Deeps
+Manifestation Lore: Lore of the Abyss
+Faction Terrain: Gloomtide Shipwreck
+-----
+Regiment 1
+General's regiment
+1 x Akhelian King (140 points)
+[Artefact]: Lifekelp Pod
+[Heroic Trait]: Cursed Lineage
+6 x Akhelian Morrsarr Guard (340 points)
+[Ethersea Companions]: Ironshell Barnacles
+3 x Akhelian Ishlaen Guard (170 points)
+1 x Ikon of the Sea (120 points)
+1 x Akhelian Allopex (160 points)
+• 1 x Razorshell Harpoon
+----
+Regiment 2
+1 x Isharann Tidecaster (100 points)
+10 x Scourge of Aqshy: Namarti Reavers (100 points)
+----
+Regiment 3
+1 x Mathaela, Oracle of the Abyss (150 points)
+10 x Namarti Thralls (90 points)
+1 x Akhelian Leviadon (450 points)
+1 x Akhelian Allopex (160 points)
+• 1 x Retarius Net Launcher
+----
+
+Wounds: 112
+2000/2000 Pts
