@@ -1,3 +1,3 @@
 **.DS_Store
-articles/**.html
-tournaments/**.html
+articles/**/*.html
+tournaments/**/*.html
