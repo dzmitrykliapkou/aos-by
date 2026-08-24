@@ -346,7 +346,59 @@
     "location": "Минск, клуб «Логово Дракона»",
     "organizer": "Роман",
     "finished": false,
-    "rulesFile": "2026-08-02-pora-v-shkolu.md"
+    "rulesFile": "2026-08-02-pora-v-shkolu.md",
+    "players": [
+      {
+        "name": "Алексей",
+        "army": "Lumineth Realm-lords",
+        "rosterFile": "rosters/aleksey_lrl.txt"
+      },
+      {
+        "name": "Андрей",
+        "army": "Kruleboyz",
+        "rosterFile": "rosters/andrey_kb.txt"
+      },
+      {
+        "name": "Арсений",
+        "army": "Disciples of Tzeentch",
+        "rosterFile": "rosters/ars_dot.txt"
+      },
+      {
+        "name": "Артем",
+        "army": "Nighthaunt",
+        "rosterFile": "rosters/artem_nh.txt"
+      },
+      {
+        "name": "Елизар",
+        "army": "Stormcast Eternals",
+        "rosterFile": "rosters/elizar_sce.txt"
+      },
+      {
+        "name": "Илья",
+        "army": "Soulblight Gravelords",
+        "rosterFile": "rosters/ilya_sbgl.txt"
+      },
+      {
+        "name": "Иван",
+        "army": "Seraphon",
+        "rosterFile": "rosters/ivan_ser.txt"
+      },
+      {
+        "name": "Макар",
+        "army": "Lumineth Realm-lords",
+        "rosterFile": "rosters/makar_lrl.txt"
+      },
+      {
+        "name": "Роман",
+        "army": "Idoneth Deepkin",
+        "rosterFile": "rosters/roman_idk.txt"
+      },
+      {
+        "name": "Виталий",
+        "army": "???",
+        "rosterFile": "rosters/vitaliy_ska.txt"
+      }
+    ]
   },
   {
     "slug": "belarus-gt-2026",

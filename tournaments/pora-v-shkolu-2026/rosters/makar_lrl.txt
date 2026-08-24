@@ -1,0 +1,31 @@
+Army Name: Две коровки и две лисички идут за ручку 🥰🥰🥰
+Grand Alliance: Order
+Faction: Lumineth Realm-lords
+Battle Formation: Aelementor Guardians (10 pts)
+Battle Tactics Cards: Blazing Onslaught and Legend of the Parch
+Drops: 3
+
+Spell Lore: Lore of the Awakened Realms
+Manifestation Lore: Primal Energy (10 pts)
+Faction Terrain: Shrine Luminor
+-----
+Regiment 1
+General's regiment
+1 x Avalenor, The Stoneheart King (400 points)
+10 x Alarith Stoneguard (270 points)
+[Flawless Manoeuvres]: Dazzling Phalanx
+1 x Alarith Spirit of the Mountain (310 points)
+----
+Regiment 2
+1 x Ellania and Ellathor, Eclipsian Warsages (310 points)
+1 x Hurakan Spirit of the Wind (270 points)
+1 x Hurakan Spirit of the Wind (270 points)
+----
+Regiment 3
+1 x Alarith Stonemage (120 points)
+[Artefact]: Silver Wand
+[Heroic Trait]: Acolyte of the Runes
+----
+
+Wounds: 81
+1970/2000 Pts

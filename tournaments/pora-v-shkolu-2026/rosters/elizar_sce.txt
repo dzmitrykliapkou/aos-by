@@ -1,0 +1,33 @@
+Сколько ударных юнитов ты хочешь в листе? Da.
+Grand Alliance: Order
+Faction: Stormcast Eternals
+Battle Formation: Sentinels of the Bleak Citadels
+Battle Tactics Cards: Flanking Firestorm and Burning for Vengeance
+Drops: 3
+
+Spell Lore: Lore of the Storm
+Prayer Lore: Prayers of the Stormhosts
+Faction Terrain: Stormreach Portal (20 pts)
+-----
+Regiment 1
+1 x Iridan the Witness (260 points)
+6 x Vanguard-Raptors with Longstrike Crossbows (400 points)
+----
+Regiment 2
+General's regiment
+1 x Yndrasta, the Celestial Spear (270 points)
+6 x Prosecutors (300 points)
+5 x Vindictors (90 points)
+----
+Regiment 3
+1 x Lord-Relictor (120 points)
+1 x Lord-Terminos (160 points)
+[Artefact]: Quicksilver Draught
+[Heroic Trait]: Envoy of the Heavens
+6 x Reclusians (290 points)
+[Scars of War]: Veterans of Amberstone Watch
+5 x Vindictors (90 points)
+----
+
+Wounds: 94
+2000/2000 Pts

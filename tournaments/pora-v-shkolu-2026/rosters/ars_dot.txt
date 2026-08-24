@@ -1,0 +1,40 @@
+Хз, вроде прек
+
+
+Grand Alliance: Chaos
+Faction: Disciples of Tzeentch
+Battle Formation: Malevolent Schemers
+Battle Tactics Cards: Burning for Vengeance and Siege of Ashes
+Drops: 4
+
+Spell Lore: Lore of Fate
+Manifestation Lore: Manifestations of Tzeentch
+Faction Terrain: Argent Shard
+-----
+Regiment 1
+General's regiment
+1 x Lord of Change (390 points)
+[Artefact]: Fate Slicer
+1 x Burning Chariot of Tzeentch (140 points)
+[Visions of Fate]: Vision of Arcane Sacrifice
+1 x Burning Chariot of Tzeentch (120 points)
+3 x Scourge of Aqshy: Screamers of Tzeentch (110 points)
+1 x Chaos Spawn of Tzeentch (60 points)
+----
+Regiment 2
+1 x Fateskimmer, Herald of Tzeentch on Burning Chariot (140 points)
+----
+Regiment 3
+1 x The Changeling (140 points)
+20 x Blue Horrors and Brimstone Horrors (240 points)
+----
+Regiment 4
+1 x Fatemaster (150 points)
+[Heroic Trait]: Silver Summoner
+9 x Jade Obelisk (100 points)
+• Antithete Bow
+20 x Tzaangors (340 points)
+1 x Chaos Spawn of Tzeentch (60 points)
+----
+
+Wounds: 140
