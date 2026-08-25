@@ -324,7 +324,9 @@ def build_participants_table(tournament: dict, folder: str) -> str:
     else:
         ordered = list(players)
 
-    headers = ["Место", "Игрок", "Армия"]
+    headers = ["Игрок", "Армия"]
+    if has_results:
+        headers.insert(0, "Место")
     if has_teams:
         headers.append("Команда")
     if has_results:
@@ -346,10 +348,12 @@ def build_participants_table(tournament: dict, folder: str) -> str:
         name_cell, roster_row = build_roster_cell(p, folder, roster_row_id, total_cols)
 
         cells = [
-            f'<td class="rank">{i + 1}</td>',
             f"<td>{name_cell}</td>",
             f'<td>{escape_text(p.get("army", ""))}</td>',
         ]
+
+        if has_results:
+            cells.insert(0, f'<td class="rank">{i + 1}</td>')
 
         if has_teams:
             cells.append(f'<td class="team-cell">{escape_text(team or "")}</td>')
