@@ -1,1 +1,32 @@
-Не сдал, гоните его, насмехайтесь над ним
+Grand Alliance: Chaos
+Faction: Skaven 
+Battle Formation: Fleshmeld Menagerie 
+Battle Tactics Cards: Burning for Vengeance and Blazing Onslaught 
+
+Drops: 2
+
+Spell Lore: Lore of Ruin 
+Prayer Lore: Noxious Prayers 
+Manifestation Lore: Manifestations of Doom 
+
+Faction Terrain: Gnawhole
+
+Regiment 1 
+1 x Scourge of Aqshy: Grey Seer on Screaming Bell (330 points) 
+- [Artefact]: Warpstone Charm 
+- [Heroic Trait]: Short-tempered 
+6 x Stormfiends (470 points) 
+- 2 x Doomflayer Gauntlets 
+- 2 x Grinderfists 
+- 2 x Warpfire Projectors 
+- [Moulder Mutations]: Transplanted Brains 
+6 x Rat Ogors (280 points) 
+1 x Brood Terror (220 points)
+
+Regiment 2 - General's regiment 
+1 x Vizzik Skour, Prophet of the Horned Rat (340 points) 
+10 x Night Runners (130 points) 
+2 x Doom-Flayers (100 points) 
+10 x Night Runners (130 points)
+
+Wounds: 130 2000/2000 Pts
