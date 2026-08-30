@@ -345,58 +345,108 @@
     "date": "2026-08-29",
     "location": "Минск, клуб «Логово Дракона»",
     "organizer": "Роман",
-    "finished": false,
+    "finished": true,
     "rulesFile": "2026-08-02-pora-v-shkolu.md",
     "players": [
       {
         "name": "Алексей",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/aleksey_lrl.txt"
+        "rosterFile": "rosters/aleksey_lrl.txt",
+        "games": [
+          { "points": 17, "result": "win" },
+          { "points": 0, "result": "loss" },
+          { "points": 0, "result": "loss" }
+        ]
       },
       {
         "name": "Андрей",
         "army": "Kruleboyz",
-        "rosterFile": "rosters/andrey_kb.txt"
+        "rosterFile": "rosters/andrey_kb.txt",
+        "games": [
+          { "points": 17, "result": "win" },
+          { "points": 14, "result": "win" },
+          { "points": 12, "result": "win" }
+        ]
       },
       {
         "name": "Арсений",
         "army": "Disciples of Tzeentch",
-        "rosterFile": "rosters/ars_dot.txt"
+        "rosterFile": "rosters/ars_dot.txt",
+        "games": [
+          { "points": 6, "result": "loss" },
+          { "points": 12, "result": "win" },
+          { "points": 1, "result": "loss" }
+        ]
       },
       {
         "name": "Артем",
         "army": "Nighthaunt",
-        "rosterFile": "rosters/artem_nh.txt"
+        "rosterFile": "rosters/artem_nh.txt",
+        "games": [
+          { "points": 8, "result": "loss" },
+          { "points": 18, "result": "win" },
+          { "points": 19, "result": "win" }
+        ]
       },
       {
         "name": "Елизар",
         "army": "Stormcast Eternals",
-        "rosterFile": "rosters/elizar_sce.txt"
+        "rosterFile": "rosters/elizar_sce.txt",
+        "games": [
+          { "points": 7, "result": "loss" },
+          { "points": 6, "result": "loss" },
+          { "points": 8, "result": "loss" }
+        ]
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/ilya_sbgl.txt"
+        "rosterFile": "rosters/ilya_sbgl.txt",
+        "games": [
+          { "points": 14, "result": "win" },
+          { "points": 6, "result": "loss" },
+          { "points": 20, "result": "win" }
+        ]
       },
       {
         "name": "Иван",
         "army": "Seraphon",
-        "rosterFile": "rosters/ivan_ser.txt"
+        "rosterFile": "rosters/ivan_ser.txt",
+        "games": [
+          { "points": 13, "result": "win" },
+          { "points": 20, "result": "win" },
+          { "points": 8, "result": "loss" }
+        ]
       },
       {
         "name": "Макар",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/makar_lrl.txt"
+        "rosterFile": "rosters/makar_lrl.txt",
+        "games": [
+          { "points": 12, "result": "win" },
+          { "points": 8, "result": "loss" },
+          { "points": 0, "result": "loss" }
+        ]
       },
       {
         "name": "Роман",
         "army": "Idoneth Deepkin",
-        "rosterFile": "rosters/roman_idk.txt"
+        "rosterFile": "rosters/roman_idk.txt",
+        "games": [
+          { "points": 3, "result": "loss" },
+          { "points": 14, "result": "win" },
+          { "points": 20, "result": "win" }
+        ]
       },
       {
         "name": "Виталий",
         "army": "Skaven",
-        "rosterFile": "rosters/vitaliy_ska.txt"
+        "rosterFile": "rosters/vitaliy_ska.txt",
+        "games": [
+          { "points": 3, "result": "loss" },
+          { "points": 2, "result": "loss" },
+          { "points": 12, "result": "win" }
+        ]
       }
     ]
   },
