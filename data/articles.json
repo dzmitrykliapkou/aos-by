@@ -137,5 +137,18 @@
     "author": "Дмитрий",
     "cover": "images/army-composition-cover.jpeg",
     "mdFile": "articles/guide/army-composition.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-test-of-loyalty",
+    "title": "Хроники разрушения: Проверка лояльности",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-09-08",
+    "author": "Роман",
+    "cover": "images/aosdokfiction-mar25-art-ylnncdvjse.jpg",
+    "mdFile": "articles/lore/2026-09-08-chronicles-of-ruin-test-of-loyalty.md"
   }
 ]
