@@ -163,5 +163,18 @@
     "author": "Роман",
     "cover": "images/aosluminethfiction-apr20art-ntcxuhmmul.jpg",
     "mdFile": "articles/lore/2026-09-15-chronicles-of-ruin-the-nature-of-light.md"
+  },
+  {
+    "slug": "airbrush-workshop",
+    "title": "Мастер-класс «Основы работы с аэрографом»",
+    "excerpt": "Хотите начать красить миниатюры аэрографом, но не знаете, с чего начать",
+    "tags": [
+      "новость",
+      "мастер-класс"
+    ],
+    "date": "2026-09-15",
+    "author": "Глеб",
+    "cover": "images/articles/sonsofvelmorn.jpg",
+    "mdFile": "articles/news/airbrush-workshop.md"
   }
 ]

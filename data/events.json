@@ -39,5 +39,13 @@
     "location": "Клуб «Логово Дракона»",
     "organizer": "Артем",
     "url": "tournaments/belarus-gt-2026/"
+  },
+  {
+    "title": "Мастер-класс «Основы работы с аэрографом»",
+    "date": "2026-09-19",
+    "category": "Мастер-класс",
+    "location": "Клуб «Д6»",
+    "organizer": "Глеб",
+    "url": "articles/airbrush-workshop.html"
   }
 ]

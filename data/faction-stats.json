@@ -1,5 +1,5 @@
 {
-  "totalEntries": 30,
+  "totalEntries": 40,
   "minGamesForWinrate": 3,
   "dateRange": {
     "start": "2026-07-01",
@@ -8,98 +8,108 @@
   "pickRate": [
     {
       "faction": "Soulblight Gravelords",
-      "count": 3,
+      "count": 4,
       "percent": 10.0
     },
     {
       "faction": "Daughters of Khaine",
       "count": 3,
-      "percent": 10.0
+      "percent": 7.5
     },
     {
       "faction": "Gloomspite Gitz",
       "count": 3,
-      "percent": 10.0
+      "percent": 7.5
     },
     {
       "faction": "Ironjawz",
       "count": 3,
-      "percent": 10.0
+      "percent": 7.5
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "count": 3,
+      "percent": 7.5
     },
     {
       "faction": "Fyreslayers",
       "count": 2,
-      "percent": 6.7
+      "percent": 5.0
+    },
+    {
+      "faction": "Disciples of Tzeentch",
+      "count": 2,
+      "percent": 5.0
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "count": 2,
+      "percent": 5.0
+    },
+    {
+      "faction": "Seraphon",
+      "count": 2,
+      "percent": 5.0
     },
     {
       "faction": "Flesh-eater Courts",
       "count": 2,
-      "percent": 6.7
+      "percent": 5.0
     },
     {
       "faction": "Sylvaneth",
       "count": 2,
-      "percent": 6.7
+      "percent": 5.0
+    },
+    {
+      "faction": "Skaven",
+      "count": 2,
+      "percent": 5.0
+    },
+    {
+      "faction": "Stormcast Eternals",
+      "count": 2,
+      "percent": 5.0
     },
     {
       "faction": "Ossiarch Bonereapers",
       "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
       "faction": "Helsmiths of Hashut",
       "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
       "faction": "Sons of Behemat",
       "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
       "faction": "Kharadron Overlords",
       "count": 1,
-      "percent": 3.3
-    },
-    {
-      "faction": "Disciples of Tzeentch",
-      "count": 1,
-      "percent": 3.3
-    },
-    {
-      "faction": "Idoneth Deepkin",
-      "count": 1,
-      "percent": 3.3
-    },
-    {
-      "faction": "Seraphon",
-      "count": 1,
-      "percent": 3.3
-    },
-    {
-      "faction": "Skaven",
-      "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
       "faction": "Cities of Sigmar",
       "count": 1,
-      "percent": 3.3
-    },
-    {
-      "faction": "Lumineth Realm-lords",
-      "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
       "faction": "Hedonites of Slaanesh",
       "count": 1,
-      "percent": 3.3
+      "percent": 2.5
     },
     {
-      "faction": "Stormcast Eternals",
+      "faction": "Kruleboyz",
       "count": 1,
-      "percent": 3.3
+      "percent": 2.5
+    },
+    {
+      "faction": "Nighthaunt",
+      "count": 1,
+      "percent": 2.5
     }
   ],
   "winRate": [
