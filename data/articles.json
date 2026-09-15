@@ -150,5 +150,18 @@
     "author": "Роман",
     "cover": "images/aosdokfiction-mar25-art-ylnncdvjse.jpg",
     "mdFile": "articles/lore/2026-09-08-chronicles-of-ruin-test-of-loyalty.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-the-nature-of-light",
+    "title": "Хроники Разрушения: Природа Света",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-09-15",
+    "author": "Роман",
+    "cover": "images/aosluminethfiction-apr20art-ntcxuhmmul.jpg",
+    "mdFile": "articles/lore/2026-09-15-chronicles-of-ruin-the-nature-of-light.md"
   }
 ]
