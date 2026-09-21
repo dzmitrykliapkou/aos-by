@@ -169,12 +169,24 @@
     "title": "Мастер-класс «Основы работы с аэрографом»",
     "excerpt": "Хотите начать красить миниатюры аэрографом, но не знаете, с чего начать?",
     "tags": [
-      "новость",
-      "мастер-класс"
+      "новость"
     ],
     "date": "2026-09-15",
     "author": "Глеб",
     "cover": "images/articles/sonsofvelmorn.jpg",
     "mdFile": "articles/news/airbrush-workshop.md"
+  },
+  {
+    "slug": "osnovnye-arhetipy-armij",
+    "title": "Основные архетипы армий",
+    "excerpt": "Основные архетипы армий Фракции представленные в игре имеют в наличии по 2 и более архетипа описанных ниже.",
+    "tags": [
+      "гайд",
+      "новичкам"
+    ],
+    "date": "2026-09-21",
+    "author": "Андрей, Роман, Виталий, Алексей",
+    "cover": "images/flesh-easter-courts.jpg",
+    "mdFile": "articles/guide/2026-09-21-osnovnye-arhetipy-armij.md"
   }
 ]
