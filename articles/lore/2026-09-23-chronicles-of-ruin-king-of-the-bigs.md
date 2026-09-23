@@ -118,5 +118,5 @@ date: 2026-09-23
 
 — Хорошо, — говорит Бродд, снова сжимая булаву обеими руками. — Это место принадлежит Бехемату. А я только начинаю разогреваться.
 
-![](images/aossobfiction-sep11-filler1-krydrstokm.webp)
+![](images/aossobfiction-sep11-filler1-krydrstokm.png)
 
