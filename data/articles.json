@@ -188,5 +188,18 @@
     "author": "Андрей, Роман, Виталий, Алексей",
     "cover": "images/flesh-easter-courts.jpg",
     "mdFile": "articles/guide/2026-09-21-osnovnye-arhetipy-armij.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-king-of-the-bigs",
+    "title": "Хроники Разрушения: Король гаргантов",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-09-23",
+    "author": "Роман",
+    "cover": "images/aossobfiction-sep11-art-mxbqfmbsus.jpg",
+    "mdFile": "articles/lore/2026-09-23-chronicles-of-ruin-king-of-the-bigs.md"
   }
 ]
