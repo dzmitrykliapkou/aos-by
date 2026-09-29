@@ -201,5 +201,16 @@
     "author": "Роман",
     "cover": "images/aossobfiction-sep11-art-mxbqfmbsus.jpg",
     "mdFile": "articles/lore/2026-09-23-chronicles-of-ruin-king-of-the-bigs.md"
+  },
+  {
+    "slug": "gt-closing",
+    "title": "Belarus GT 2026: набор закрывается 1 октября!"
+    "excerpt": "Поспешите подать заявку на участие в событии года",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-09-29",
+    "author": "Артем",
+    "mdFile": "articles/news/gt-closing.md"
   }
 ]
