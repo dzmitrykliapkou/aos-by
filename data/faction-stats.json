@@ -122,7 +122,7 @@
       "percent": 100.0
     },
     {
-      "faction": "Lumineth Realm-lords",
+      "faction": "Kruleboyz",
       "wins": 3,
       "losses": 0,
       "draws": 0,
@@ -146,27 +146,19 @@
       "percent": 66.7
     },
     {
-      "faction": "Disciples of Tzeentch",
-      "wins": 2,
-      "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "percent": 66.7
-    },
-    {
       "faction": "Idoneth Deepkin",
-      "wins": 2,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "draws": 0,
-      "games": 3,
+      "games": 6,
       "percent": 66.7
     },
     {
       "faction": "Seraphon",
-      "wins": 2,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "draws": 0,
-      "games": 3,
+      "games": 6,
       "percent": 66.7
     },
     {
@@ -178,7 +170,7 @@
       "percent": 66.7
     },
     {
-      "faction": "Skaven",
+      "faction": "Nighthaunt",
       "wins": 2,
       "losses": 1,
       "draws": 0,
@@ -194,6 +186,22 @@
       "percent": 55.6
     },
     {
+      "faction": "Lumineth Realm-lords",
+      "wins": 5,
+      "losses": 4,
+      "draws": 0,
+      "games": 9,
+      "percent": 55.6
+    },
+    {
+      "faction": "Soulblight Gravelords",
+      "wins": 6,
+      "losses": 6,
+      "draws": 0,
+      "games": 12,
+      "percent": 50.0
+    },
+    {
       "faction": "Fyreslayers",
       "wins": 3,
       "losses": 3,
@@ -202,12 +210,20 @@
       "percent": 50.0
     },
     {
-      "faction": "Soulblight Gravelords",
-      "wins": 4,
-      "losses": 5,
+      "faction": "Disciples of Tzeentch",
+      "wins": 3,
+      "losses": 3,
       "draws": 0,
-      "games": 9,
-      "percent": 44.4
+      "games": 6,
+      "percent": 50.0
+    },
+    {
+      "faction": "Skaven",
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "games": 6,
+      "percent": 50.0
     },
     {
       "faction": "Gloomspite Gitz",
@@ -242,15 +258,15 @@
       "percent": 33.3
     },
     {
-      "faction": "Stormcast Eternals",
+      "faction": "Flesh-eater Courts",
       "wins": 1,
-      "losses": 2,
+      "losses": 5,
       "draws": 0,
-      "games": 3,
-      "percent": 33.3
+      "games": 6,
+      "percent": 16.7
     },
     {
-      "faction": "Flesh-eater Courts",
+      "faction": "Stormcast Eternals",
       "wins": 1,
       "losses": 5,
       "draws": 0,
@@ -273,6 +289,10 @@
     },
     {
       "faction": "Daughters of Khaine",
+      "count": 1
+    },
+    {
+      "faction": "Kruleboyz",
       "count": 1
     }
   ]
