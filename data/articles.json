@@ -223,5 +223,18 @@
     "date": "2026-10-01",
     "author": "Артем",
     "mdFile": "articles/news/gt-participants.md"
+  },
+  {
+    "slug": "chronicles-of-ruin-last-chances",
+    "title": "Хроники разрушения: Последние шансы",
+    "excerpt": "Перевод рассказа из цикла от Warhammer Community",
+    "tags": [
+      "лор",
+      "перевод"
+    ],
+    "date": "2026-10-01",
+    "author": "Роман",
+    "cover": "images/aoskharafiction-jul15-art-8qykwe9q2f.jpg",
+    "mdFile": "articles/lore/2026-10-01-chronicles-of-ruin-last-chances.md"
   }
 ]
