@@ -301,6 +301,7 @@ def build_participants_table(tournament: dict, folder: str) -> str:
 
     has_results = any(p.get("games") or p.get("points") is not None for p in players)
     has_teams = any(p.get("team") for p in players)
+    has_armies = any(p.get("army") for p in players)
 
     if has_results:
         team_totals = {}
@@ -324,7 +325,9 @@ def build_participants_table(tournament: dict, folder: str) -> str:
     else:
         ordered = list(players)
 
-    headers = ["Игрок", "Армия"]
+    headers = ["Игрок"]
+    if has_armies:
+        headers.append("Армия")
     if has_results:
         headers.insert(0, "Место")
     if has_teams:
@@ -347,10 +350,10 @@ def build_participants_table(tournament: dict, folder: str) -> str:
         roster_row_id = f"roster-{i}"
         name_cell, roster_row = build_roster_cell(p, folder, roster_row_id, total_cols)
 
-        cells = [
-            f"<td>{name_cell}</td>",
-            f'<td>{escape_text(p.get("army", ""))}</td>',
-        ]
+        cells = [f"<td>{name_cell}</td>"]
+
+        if has_armies:
+            cells.append(f'<td>{escape_text(p.get("army", ""))}</td>')
 
         if has_results:
             cells.insert(0, f'<td class="rank">{i + 1}</td>')

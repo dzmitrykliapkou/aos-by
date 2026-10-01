@@ -212,5 +212,16 @@
     "date": "2026-09-29",
     "author": "Артем",
     "mdFile": "articles/news/gt-closing.md"
+  },
+  {
+    "slug": "gt-participants",
+    "title": "Belarus GT 2026: список участников",
+    "excerpt": "Регистрация закрыта! Кто сойдётся в бою за пояс чемпиона?",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-10-01",
+    "author": "Артем",
+    "mdFile": "articles/news/gt-participants.md"
   }
 ]
