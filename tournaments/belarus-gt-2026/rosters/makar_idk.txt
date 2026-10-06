@@ -1,0 +1,31 @@
+Grand Alliance: Order
+Faction: Idoneth Deepkin
+Battle Formation: Akhelian Beastmasters (20 pts)
+Battle Tactics Cards: Blazing Onslaught and Siege of Ashes
+Drops: 2
+
+Spell Lore: Lore of the Deeps
+Manifestation Lore: Primal Energy (10 pts)
+
+General's regiment
+
+1 x Eidolon of Mathlann, Aspect of the Storm (280 points)
+[Artefact]: Armour of the Cythai
+[Heroic Trait]: Cursed Lineage
+6 x Akhelian Ishlaen Guard (340 points)
+[Ethersea Companions]: Ironshell Barnacles
+10 x Scourge of Aqshy: Namarti Reavers (100 points)
+20 x Namarti Thralls (180 points)
+6 x Akhelian Morrsarr Guard (320 points)
+
+Regiment 2
+
+1 x Akhelian King (140 points)
+1 x Akhelian Leviadon (450 points)
+1 x Ikon of the Storm (130 points)
+
+Faction Terrain: Gloomtide Shipwreck
+
+Wounds: 119
+
+1970/2000 Pts

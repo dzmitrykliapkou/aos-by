@@ -1,0 +1,31 @@
+Grand Alliance: Chaos
+Faction: Maggotkin of Nurgle
+Battle Formation: Tallyband of Nurgle
+Battle Tactics Cards: Smokescreen and Siege of Ashes
+Drops: 2
+
+Spell Lore: Lore of Malignance
+Prayer Lore: Lore of Virulence
+Manifestation Lore: Krondspine Incarnate
+
+General's regiment
+
+1 x The Glottkin (470 points)
+1 x Lord of Plagues (120 points)
+[Artefact]: The Carrion Dirge
+[Heroic Trait]: Gift of Febrile Frenzy
+20 x Rotswords (420 points)
+20 x Rotswords (420 points)
+3 x Sloven Knights (180 points)
+
+Regiment 2
+
+1 x Belga the Cystwitch (130 points)
+1 x Lord of Plagues (120 points)
+5 x Scourge of Aqshy: Putrid Blightkings (140 points)
+
+Faction Terrain: Feculent Gnarlmaw
+
+Wounds: 152
+
+2000/2000 Pts
