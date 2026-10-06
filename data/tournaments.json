@@ -11,92 +11,200 @@
       {
         "name": "Антон",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/anton_sbgl.txt"
+        "rosterFile": "rosters/anton_sbgl.txt",
+        "team": "Традиционные ценности",
+        "games": [
+          { "points": 37, "result": "win" },
+          { "points": 36, "result": "loss" },
+          { "points": 52, "result": "loss" }
+        ]
       },
       {
         "name": "Роман",
         "army": "Daughters of Khaine",
-        "rosterFile": "rosters/roman_dok.txt"
+        "rosterFile": "rosters/roman_dok.txt",
+        "team": "Традиционные ценности",
+        "games": [
+          { "points": 34, "result": "loss" },
+          { "points": 18, "result": "loss" },
+          { "points": 21, "result": "loss" }
+        ]
       },
       {
         "name": "Павел",
         "army": "Ossiarch Bonereapers",
-        "rosterFile": "rosters/pavel_obr.txt"
+        "rosterFile": "rosters/pavel_obr.txt",
+        "team": "Традиционные ценности",
+        "games": [
+          { "points": 80, "result": "win" },
+          { "points": 80, "result": "win" },
+          { "points": 0, "result": "loss" }
+        ]
       },
       {
         "name": "Андрей",
         "army": "Helsmiths of Hashut",
-        "rosterFile": "rosters/andrey_hoh.txt"
+        "rosterFile": "rosters/andrey_hoh.txt",
+        "team": "Пивное братство",
+        "games": [
+          { "points": 21, "result": "loss" },
+          { "points": 71, "result": "win" },
+          { "points": 48, "result": "win" }
+        ]
       },
       {
         "name": "Артем",
         "army": "Sons of Behemat",
-        "rosterFile": "rosters/artem_sob.txt"
+        "rosterFile": "rosters/artem_sob.txt",
+        "team": "Пивное братство",
+        "games": [
+          { "points": 65, "result": "win" },
+          { "points": 70, "result": "win" },
+          { "points": 71, "result": "win" }
+        ]
       },
       {
         "name": "Максим",
         "army": "Kharadron Overlords",
-        "rosterFile": "rosters/maksim_ko.txt"
+        "rosterFile": "rosters/maksim_ko.txt",
+        "team": "Пивное братство",
+        "games": [
+          { "points": 34, "result": "loss" },
+          { "points": 18, "result": "loss" },
+          { "points": 20, "result": "loss" }
+        ]
       },
       {
         "name": "Алексей",
         "army": "Fyreslayers",
-        "rosterFile": "rosters/aleksey_fs.txt"
+        "rosterFile": "rosters/aleksey_fs.txt",
+        "team": "Коноха Бойз",
+        "games": [
+          { "points": 57, "result": "win" },
+          { "points": 37, "result": "loss" },
+          { "points": 56, "result": "win" }
+        ]
       },
       {
         "name": "Виталий",
         "army": "Gloomspite Gitz",
-        "rosterFile": "rosters/vitaly_gsg.txt"
+        "rosterFile": "rosters/vitaly_gsg.txt",
+        "team": "Коноха Бойз",
+        "games": [
+          { "points": 57, "result": "win" },
+          { "points": 51, "result": "win" },
+          { "points": 57, "result": "win" }
+        ]
       },
       {
         "name": "Глеб",
         "army": "Ironjawz",
-        "rosterFile": "rosters/gleb_ij.txt"
+        "rosterFile": "rosters/gleb_ij.txt",
+        "team": "Коноха Бойз",
+        "games": [
+          { "points": 80, "result": "win" },
+          { "points": 51, "result": "win" },
+          { "points": 23, "result": "loss" }
+        ]
       },
       {
         "name": "Арсений",
         "army": "Disciples of Tzeentch",
-        "rosterFile": "rosters/arseny_dot.txt"
+        "rosterFile": "rosters/arseny_dot.txt",
+        "team": "Down fu pandaz",
+        "games": [
+          { "points": 59, "result": "win" },
+          { "points": 35, "result": "loss" },
+          { "points": 65, "result": "win" }
+        ]
       },
       {
         "name": "Макар",
         "army": "Idoneth Deepkin",
-        "rosterFile": "rosters/makar_idk.txt"
+        "rosterFile": "rosters/makar_idk.txt",
+        "team": "Down fu pandaz",
+        "games": [
+          { "points": 37, "result": "loss" },
+          { "points": 65, "result": "win" },
+          { "points": 80, "result": "win" }
+        ]
       },
       {
         "name": "Елизар",
         "army": "Daughters of Khaine",
-        "rosterFile": "rosters/elizar_dok.txt"
+        "rosterFile": "rosters/elizar_dok.txt",
+        "team": "Down fu pandaz",
+        "games": [
+          { "points": 65, "result": "win" },
+          { "points": 23, "result": "loss" },
+          { "points": 60, "result": "win" }
+        ]
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/ilya_sbgl.txt"
+        "rosterFile": "rosters/ilya_sbgl.txt",
+        "team": "Любовь, смерть и биороботы",
+        "games": [
+          { "points": 80, "result": "win" },
+          { "points": 42, "result": "loss" },
+          { "points": 24, "result": "loss" }
+        ]
       },
       {
         "name": "Павел",
         "army": "Seraphon",
-        "rosterFile": "rosters/pavel_ser.txt"
+        "rosterFile": "rosters/pavel_ser.txt",
+        "team": "Любовь, смерть и биороботы",
+        "games": [
+          { "points": 32, "result": "loss" },
+          { "points": 65, "result": "win" },
+          { "points": 44, "result": "win" }
+        ]
       },
       {
         "name": "Женя",
         "army": "Flesh-eater Courts",
-        "rosterFile": "rosters/zhenya_fec.txt"
+        "rosterFile": "rosters/zhenya_fec.txt",
+        "team": "Любовь, смерть и биороботы",
+        "games": [
+          { "points": 21, "result": "loss" },
+          { "points": 41, "result": "win" },
+          { "points": 44, "result": "loss" }
+        ]
       },
       {
         "name": "Артемчик",
         "army": "Gloomspite Gitz",
-        "rosterFile": "rosters/artem_gsg.txt"
+        "rosterFile": "rosters/artem_gsg.txt",
+        "team": "Фул покрас под пивас",
+        "games": [
+          { "points": 9, "result": "loss" },
+          { "points": 15, "result": "loss" },
+          { "points": 25, "result": "loss" }
+        ]
       },
       {
         "name": "Сергей",
         "army": "Sylvaneth",
-        "rosterFile": "rosters/sergey_syl.txt"
+        "rosterFile": "rosters/sergey_syl.txt",
+        "team": "Фул покрас под пивас",
+        "games": [
+          { "points": 52, "result": "loss" },
+          { "points": 44, "result": "win" },
+          { "points": 40, "result": "win" }
+        ]
       },
       {
         "name": "Дима",
         "army": "Ironjawz",
-        "rosterFile": "rosters/dima_ij.txt"
+        "rosterFile": "rosters/dima_ij.txt",
+        "team": "Фул покрас под пивас",
+        "games": [
+          { "points": 34, "result": "loss" },
+          { "points": 33, "result": "loss" },
+          { "points": 32, "result": "loss" }
+        ]
       }
     ]
   },
@@ -112,62 +220,122 @@
       {
         "name": "Виталий",
         "army": "Skaven",
-        "rosterFile": "rosters/skaven_v.txt"
+        "rosterFile": "rosters/skaven_v.txt",
+        "games": [
+          { "points": 69, "result": "win" },
+          { "points": 62, "result": "win" },
+          { "points": 22, "result": "loss" }
+        ]
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/sbgl_i.txt"
+        "rosterFile": "rosters/sbgl_i.txt",
+        "games": [
+          { "points": 41, "result": "loss" },
+          { "points": 49, "result": "win" },
+          { "points": 73, "result": "win" }
+        ]
       },
       {
         "name": "Павел",
         "army": "Sylvaneth",
-        "rosterFile": "rosters/sylv_p.txt"
+        "rosterFile": "rosters/sylv_p.txt",
+        "games": [
+          { "points": 67, "result": "win" },
+          { "points": 25, "result": "loss" },
+          { "points": 55, "result": "win" }
+        ]
       },
       {
         "name": "Арсений",
         "army": "Daughters of Khaine",
-        "rosterFile": "rosters/dok_ars.txt"
+        "rosterFile": "rosters/dok_ars.txt",
+        "games": [
+          { "points": 57, "result": "win" },
+          { "points": 73, "result": "win" },
+          { "points": 55, "result": "win" }
+        ]
       },
       {
         "name": "Артём",
         "army": "Cities of Sigmar",
-        "rosterFile": "rosters/cos_art.txt"
+        "rosterFile": "rosters/cos_art.txt",
+        "games": [
+          { "points": 65, "result": "win" },
+          { "points": 32, "result": "loss" },
+          { "points": 23, "result": "loss" }
+        ]
       },
       {
         "name": "Макар",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/lum_m.txt"
+        "rosterFile": "rosters/lum_m.txt",
+        "games": [
+          { "points": 64, "result": "win" },
+          { "points": 43, "result": "win" },
+          { "points": 36, "result": "win" }
+        ]
       },
       {
         "name": "Данила",
         "army": "Hedonites of Slaanesh",
-        "rosterFile": "rosters/hos_d.txt"
+        "rosterFile": "rosters/hos_d.txt",
+        "games": [
+          { "points": 30, "result": "loss" },
+          { "points": 31, "result": "loss" },
+          { "points": 45, "result": "win" }
+        ]
       },
       {
         "name": "Глеб",
         "army": "Ironjawz",
-        "rosterFile": "rosters/ironj_g.txt"
+        "rosterFile": "rosters/ironj_g.txt",
+        "games": [
+          { "points": 67, "result": "win" },
+          { "points": 29, "result": "loss" },
+          { "points": 25, "result": "loss" }
+        ]
       },
       {
         "name": "Елизар",
         "army": "Stormcast Eternals",
-        "rosterFile": "rosters/sce_e.txt"
+        "rosterFile": "rosters/sce_e.txt",
+        "games": [
+          { "points": 53, "result": "loss" },
+          { "points": 48, "result": "loss" },
+          { "points": 62, "result": "win" }
+        ]
       },
       {
         "name": "Алексей",
         "army": "Fyreslayers",
-        "rosterFile": "rosters/fyr_a.txt"
+        "rosterFile": "rosters/fyr_a.txt",
+        "games": [
+          { "points": 35, "result": "loss" },
+          { "points": 53, "result": "win" },
+          { "points": 43, "result": "loss" }
+        ]
       },
       {
         "name": "Игнат",
         "army": "Gloomspite Gitz",
-        "rosterFile": "rosters/gitz_i.txt"
+        "rosterFile": "rosters/gitz_i.txt",
+        "games": [
+          { "points": 23, "result": "loss" },
+          { "points": 65, "result": "win" },
+          { "points": 23, "result": "loss" }
+        ]
       },
       {
         "name": "Тим",
         "army": "Flesh-eater Courts",
-        "rosterFile": "rosters/fec_t.txt"
+        "rosterFile": "rosters/fec_t.txt",
+        "games": [
+          { "points": 17, "result": "loss" },
+          { "points": 62, "result": "loss" },
+          { "points": 21, "result": "loss" }
+        ]
       }
     ]
   },
@@ -183,52 +351,102 @@
       {
         "name": "Алексей",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/aleksey_lrl.txt"
+        "rosterFile": "rosters/aleksey_lrl.txt",
+        "games": [
+          { "points": 17, "result": "win" },
+          { "points": 0, "result": "loss" },
+          { "points": 0, "result": "loss" }
+        ]
       },
       {
         "name": "Андрей",
         "army": "Kruleboyz",
-        "rosterFile": "rosters/andrey_kb.txt"
+        "rosterFile": "rosters/andrey_kb.txt",
+        "games": [
+          { "points": 17, "result": "win" },
+          { "points": 14, "result": "win" },
+          { "points": 12, "result": "win" }
+        ]
       },
       {
         "name": "Арсений",
         "army": "Disciples of Tzeentch",
-        "rosterFile": "rosters/ars_dot.txt"
+        "rosterFile": "rosters/ars_dot.txt",
+        "games": [
+          { "points": 6, "result": "loss" },
+          { "points": 12, "result": "win" },
+          { "points": 1, "result": "loss" }
+        ]
       },
       {
         "name": "Артем",
         "army": "Nighthaunt",
-        "rosterFile": "rosters/artem_nh.txt"
+        "rosterFile": "rosters/artem_nh.txt",
+        "games": [
+          { "points": 8, "result": "loss" },
+          { "points": 18, "result": "win" },
+          { "points": 19, "result": "win" }
+        ]
       },
       {
         "name": "Елизар",
         "army": "Stormcast Eternals",
-        "rosterFile": "rosters/elizar_sce.txt"
+        "rosterFile": "rosters/elizar_sce.txt",
+        "games": [
+          { "points": 7, "result": "loss" },
+          { "points": 6, "result": "loss" },
+          { "points": 8, "result": "loss" }
+        ]
       },
       {
         "name": "Илья",
         "army": "Soulblight Gravelords",
-        "rosterFile": "rosters/ilya_sbgl.txt"
+        "rosterFile": "rosters/ilya_sbgl.txt",
+        "games": [
+          { "points": 14, "result": "win" },
+          { "points": 6, "result": "loss" },
+          { "points": 20, "result": "win" }
+        ]
       },
       {
         "name": "Иван",
         "army": "Seraphon",
-        "rosterFile": "rosters/ivan_ser.txt"
+        "rosterFile": "rosters/ivan_ser.txt",
+        "games": [
+          { "points": 13, "result": "win" },
+          { "points": 20, "result": "win" },
+          { "points": 8, "result": "loss" }
+        ]
       },
       {
         "name": "Макар",
         "army": "Lumineth Realm-lords",
-        "rosterFile": "rosters/makar_lrl.txt"
+        "rosterFile": "rosters/makar_lrl.txt",
+        "games": [
+          { "points": 12, "result": "win" },
+          { "points": 8, "result": "loss" },
+          { "points": 0, "result": "loss" }
+        ]
       },
       {
         "name": "Роман",
         "army": "Idoneth Deepkin",
-        "rosterFile": "rosters/roman_idk.txt"
+        "rosterFile": "rosters/roman_idk.txt",
+        "games": [
+          { "points": 3, "result": "loss" },
+          { "points": 14, "result": "win" },
+          { "points": 20, "result": "win" }
+        ]
       },
       {
         "name": "Виталий",
         "army": "Skaven",
-        "rosterFile": "rosters/vitaliy_ska.txt"
+        "rosterFile": "rosters/vitaliy_ska.txt",
+        "games": [
+          { "points": 3, "result": "loss" },
+          { "points": 2, "result": "loss" },
+          { "points": 12, "result": "win" }
+        ]
       }
     ]
   },
@@ -242,58 +460,94 @@
     "rulesFile": "rules.md",
     "players": [
       {
-        "name": "Артем"
+        "name": "Артем",
+        "army": "Cities of Sigmar",
+        "rosterFile": "rosters/artem_cos.txt"
       },
       {
-        "name": "Роман"
+        "name": "Роман",
+        "army": "Idoneth Deepkin",
+        "rosterFile": "rosters/roman_idk.txt"
       },
       {
-        "name": "Арсений"
+        "name": "Арсений",
+        "army": "Disciples of Tzeentch",
+        "rosterFile": "rosters/arseny_dot.txt"
       },
       {
-        "name": "Виталий"
+        "name": "Виталий",
+        "army": "Gloomspite Gitz",
+        "rosterFile": "rosters/vitalik_gsg.txt"
       },
       {
-        "name": "Константин"
+        "name": "Константин",
+        "army": "Slaves to Darkness",
+        "rosterFile": "rosters/kostya_std.txt"
       },
       {
-        "name": "Сергей (Гость из России)"
+        "name": "Сергей (Гость из России)",
+        "army": "Helsmiths of Hashut",
+        "rosterFile": "rosters/sergey_hoh.txt"
       },
       {
-        "name": "Алексей"
+        "name": "Алексей",
+        "army": "Lumineth Realm-lords",
+        "rosterFile": "rosters/aleksey_lrl.txt"
       },
       {
-        "name": "Иван (Гость из России)"
+        "name": "Иван (Гость из России)",
+        "army": "Ogor Mawtribes",
+        "rosterFile": "rosters/ivan_om.txt"
       },
       {
-        "name": "Илья"
+        "name": "Илья",
+        "army": "Daughters of Khaine",
+        "rosterFile": "rosters/ilya_dok.txt"
       },
       {
-        "name": "Глеб"
+        "name": "Глеб",
+        "army": "Ironjawz",
+        "rosterFile": "rosters/gleb_ij.txt"
       },
       {
-        "name": "DruDBGo (Гость из России)"
+        "name": "DruDBGo (Гость из России)",
+        "army": "Lumineth Realm-lords",
+        "rosterFile": "rosters/DruDBGo_lrl.txt"
       },
       {
-        "name": "Данила"
+        "name": "Данила",
+        "army": "Nighthaunt",
+        "rosterFile": "rosters/danila_nh.txt"
       },
       {
-        "name": "Елизар"
+        "name": "Елизар",
+        "army": "Daughters of Khaine",
+        "rosterFile": "rosters/elizar_dok.txt"
       },
       {
-        "name": "Максим"
+        "name": "Максим",
+        "army": "Kharadron Overlords",
+        "rosterFile": "rosters/maksim_ko.txt"
       },
       {
-        "name": "Макар"
+        "name": "Макар",
+        "army": "Idoneth Deepkin",
+        "rosterFile": "rosters/makar_idk.txt"
       },
       {
-        "name": "Тимофей"
+        "name": "Тимофей",
+        "army": "Flesh-eater Courts",
+        "rosterFile": "rosters/tim_fec.txt"
       },
       {
-        "name": "Дмитрий"
+        "name": "Дмитрий",
+        "army": "Maggotkin of Nurgle",
+        "rosterFile": "rosters/dmitry_mon.txt"
       },
       {
-        "name": "Павел"
+        "name": "Павел",
+        "army": "Не сдал ростер вовремя!",
+        "rosterFile": ""
       }
     ]
   }

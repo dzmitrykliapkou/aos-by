@@ -1,0 +1,40 @@
+Grand Alliance: Chaos
+Faction: Helsmiths of Hashut -  Taar's Grand Forgehost
+Battle Formation:
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 4
+
+Spell Lore: Taar's Grand Forgehost Spell Lore
+Prayer Lore: Taar's Grand Forgehost Prayer Lore
+Manifestation Lore: Primal Energy (10 pts)
+
+General's regiment
+
+1 x Urak Taar, the First Daemonsmith (340 points)
+1 x Dominator Engine with Bane Maces (140 points)
+1 x Dominator Engine with Bane Maces (140 points)
+1 x Dominator Engine with Bane Maces (140 points)
+1 x Dominator Engine with Bane Maces (140 points)
+
+Regiment 2
+
+1 x Ashen Elder (120 points)
+[Artefact]: Talisman of Obsidian
+1 x Dominator Engine with Bane Maces (140 points)
+
+Regiment 3
+
+1 x Daemonsmith (80 points)
+[Heroic Trait]: Ruthless Overseer
+10 x Infernal Cohort with Hashutite Spears (90 points)
+10 x Infernal Cohort with Hashutite Spears (90 points)
+
+Regiment 4
+
+1 x Daemonsmith (80 points)
+1 x Deathshrieker Rocket Battery (140 points)
+1 x Tormentor Bombard (130 points)
+10 x Infernal Razers with Blunderbusses (220 points)
+
+Wounds: 130
+2000/2000 Pts

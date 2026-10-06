@@ -1,0 +1,39 @@
+Grand Alliance: Destruction
+Faction: Gloomspite Gitz
+Battle Formation: Squigalanche
+Battle Tactics Cards: Burning for Vengeance and Blazing Onslaught
+Drops: 3
+
+Spell Lore: Lore of the Little Waaagh!
+Manifestation Lore: Dank Manifestations
+
+General's regiment
+
+1 x Skragrott, the Loonking (200 points)
+1 x Doom Diver Catapult (150 points)
+10 x Loonsmasha Fanatics (220 points)
+40 x Moonclan Shootas (230 points)
+[Special Knick-Knacks]: Glitzy Bitz Rolla
+3 x Snarlpack Cavalry (100 points)
+
+
+Regiment 2
+
+1 x Loonboss on Mangler Squigs (140 points)
+[Artefact]: Backstabber's Blade
+[Heroic Trait]: Fight Another Day
+5 x Gobbapalooza (150 points)
+20 x Squig Hoppers (300 points)
+24 x Squig Herd (200 points)
+
+Regiment 3
+
+1 x Squigboss with Gnasha-Squig (120 points)
+20 x Moonclan Stabbas (110 points)
+6 x Sneaky Snufflers (80 points)
+
+Faction Terrain: Bad Moon Loonshrine
+
+Wounds: 206
+
+2000/2000 Pts

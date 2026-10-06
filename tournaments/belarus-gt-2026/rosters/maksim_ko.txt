@@ -1,0 +1,47 @@
+Grand Alliance: Order
+Faction: Kharadron Overlords
+Battle Formation: Rapid Redeployment Squadron
+Battle Tactic Cards: Siege of Ashes, Flanking Firestorm
+Drops: 3
+
+General's Regiment
+
+Brokk Grungsson, Lord-Magnate of Barak-Nar (260)
+• General
+Arkanaut Frigate (280)
+• Gruksson Wide-Bore Cylinders
+Skywardens (260)
+• Reinforced
+• Artycle 15, Point 4 (10)
+Skywardens (260)
+• Reinforced
+
+Regiment 1
+
+Null-Khemist (120)
+• Voidstone Orb
+• Combat Grafter
+Grundstok Thunderers (130)
+• 2x Grundstok Mortar or Aethercannon
+• 2x Aetheric Fumigator or Decksweeper
+Grundstok Gunhauler (140)
+Arkanaut Company (80)
+• Skypike
+• 2x Privateer Heavy Weapon
+
+Regiment 2
+
+Codewright (80)
+Grundstok Gunhauler (140)
+Grundstok Thunderers (130)
+• 2x Grundstok Mortar or Aethercannon
+• 2x Aetheric Fumigator or Decksweeper
+Arkanaut Company (80)
+• Skypike
+• 2x Privateer Heavy Weapon
+
+Faction Terrain: Zontari Endrin Dock (20)
+
+Wounds: 119
+
+1990/2000 pts

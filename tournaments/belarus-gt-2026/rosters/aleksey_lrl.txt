@@ -1,0 +1,33 @@
+Grand Alliance: Order
+Faction: Lumineth Realm-lords
+Battle Formation: Scinari Council
+Battle Tactics Cards: Blazing Onslaught, Siege of Ashes
+Drops: 3
+
+Spell Lore: Lore of Hysh
+Manifestation Lore: Primal Energy (10 pts)
+
+General's regiment
+
+1 x Archmage Teclis and Celennar, Spirit of Hysh (640 points)
+1 x Scinari Enlightener (180 points)
+[Artefact]: Silver Wand
+[Heroic Trait]: Flawless Commander
+
+Regiment 2
+
+1 x Lyrior Uthralle, Warden of Ymetrica (260 points)
+1 x The Light of Eltharion (300 points)
+10 x Vanari Bladelords (280 points)
+[Flawless Manoeuvres]: Dazzling Phalanx
+
+Regiment Of Renown
+
+Gotrek Gurnisson (320 points)
+1 x Gotrek Gurnisson
+
+Faction Terrain: Shrine Luminor
+
+Wounds: 63
+
+1990/2000 Pts

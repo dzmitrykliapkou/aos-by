@@ -1,0 +1,37 @@
+Гт
+
+Grand Alliance: Order
+Faction: Cities of Sigmar
+Battle Formation: Stalwart Guardians
+Battle Tactic Cards: Legend of the Parch, Siege of Ashes
+Drops: 2
+
+Spell Lore: Spells of the Collegiate Arcane
+Prayer Lore: Scriptures of Sigmar
+Manifestation Lore: Krondspine Incarnate
+
+General's Regiment
+
+Erasmus Zonn, the Enlightened One (160)
+• General
+Freeguild Cavaliers (360)
+• Reinforced
+Gate Gargants (320)
+Freeguild Gallants (110)
+Freeguild Gallants (110)
+
+Regiment 1
+
+Cannonade Cogfort (530)
+• Prototype Arco-Combustor Uninhibitor
+Fusil-Major on Ogor Warhulk (160)
+• Bones of Saint Ignifus
+• Beloved Leader
+Ironweld Great Cannon (140)
+Freeguild Steelhelms (110)
+
+Faction Terrain: Dawner's Triumph
+
+Wounds: 128
+
+2000/2000 pts

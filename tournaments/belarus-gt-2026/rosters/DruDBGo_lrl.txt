@@ -1,0 +1,40 @@
+Grand Alliance: Order
+Faction: Lumineth Realm-lords
+Battle Formation: Aelementor Guardians (10 pts)
+Battle Tactics Cards: Siege of Ashes and Burning for Vengeance
+Drops: 5
+
+Spell Lore: Lore of the Awakened Realms
+Manifestation Lore: Manifestations of Hysh
+Faction Terrain: Shrine Luminor
+
+General's regiment
+
+1 x Ellania and Ellathor, Eclipsian Warsages (330 points)
+1 x Vanari Starshard Ballista (110 points)
+[Flawless Manoeuvres]: Perfect Footwork
+10 x Ydrilan Riverblades (150 points)
+
+Regiment 2
+
+1 x Sevireth, Lord of the Seventh Wind (350 points)
+1 x Hurakan Spirit of the Wind (270 points)
+5 x Hurakan Windchargers (180 points)
+
+Regiment 3
+
+1 x The Light of Eltharion (300 points)
+
+Regiment 4
+
+1 x Scinari Loreseeker (130 points)
+[Artefact]: Silver Wand
+[Heroic Trait]: Acolyte of the Runes
+
+Regiment Of Renown
+Mask of the Deceiver (170 points)
+1 x Mask of the Deceiver
+
+Wounds: 76
+
+2000/2000 Pts

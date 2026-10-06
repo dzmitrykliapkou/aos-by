@@ -1,0 +1,41 @@
+Grand Alliance: Order
+Faction: Idoneth Deepkin
+Battle Formation: Akhelian Beastmasters (20 pts)
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 4
+
+Spell Lore: Lore of the Deeps
+Manifestation Lore: Lore of the Abyss
+
+General's regiment
+
+1 x Akhelian King (160 points)
+[Artefact]: Lifekelp Pod
+[Heroic Trait]: Form of the Fangmora
+1 x Ikon of the Sea (110 points)
+6 x Akhelian Morrsarr Guard (320 points)
+3 x Akhelian Ishlaen Guard (170 points)
+
+Regiment 2
+
+1 x Mathaela, Oracle of the Abyss (150 points)
+10 x Namarti Thralls (100 points)
+[Ethersea Companions]: Aqshian Sea Nettles
+1 x Akhelian Leviadon (450 points)
+
+Regiment 3
+
+1 x Isharann Tidecaster (100 points)
+10 x Scourge of Aqshy: Namarti Reavers (100 points)
+
+Regiment Of Renown
+The Blacktalons (320 points)
+1 x Neave Blacktalon
+1 x Lorai, Child of the Abyss
+3 x Neave's Companions
+
+Faction Terrain: Gloomtide Shipwreck
+
+Wounds: 116
+
+2000/2000 Pts

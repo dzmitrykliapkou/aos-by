@@ -1,0 +1,29 @@
+Grand Alliance: Death
+Faction: Flesh-Eater Courts - The Knights of New Summercourt
+Battle Formation:
+Battle Tactics Cards: Legend of the Parch, Siege of Ashes
+Drops: 2
+
+Spell Lore: The Knights of New Summercourt Spell Lore
+Prayer Lore: The Knights of New Summercourt Prayer Lore
+Manifestation Lore: The Knights of New Summercourt Manifestation Lore
+
+General's regiment
+
+1 x Ushoran, Mortarch of Delusion (450 points)
+1 x Crypt Haunter Courtier (120 points)
+• Tip of the King's Lance
+6 x Crypt Horrors (300 points)
+6 x Morbheg Knights (300 points)
+6 x Morbheg Knights (300 points)
+
+Regiment 1
+
+1 x Crypt Infernal Courtier (140 points)
+• Feted Coronet
+6 x Crypt Flayers (280 points)
+1 x Varghulf Courtier (100 points)
+
+Wounds: 132
+
+1990/2000 Pts

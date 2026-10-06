@@ -1,0 +1,30 @@
+Grand Alliance: Chaos
+Faction: Slaves to Darkness
+Battle Formation: Godswrath Warband
+Battle Tactics Cards: Siege of Ashes and Blazing Onslaught
+Drops: 2
+
+Spell Lore: Lore of the Damned
+Manifestation Lore: Aetherwrought Machineries
+
+General's regiment
+
+1 x Be'lakor, the Dark Master (450 points),
+1 x Eternus, Blade of the First Prince (160 points),
+10 x Chaos Warriors (190 points),
+[Brands of the Dark Gods]: Brand of Unbreakable Bonds
+10 x Chaos Chosen (500 points)
+[Ensorcelled Banners]: The Banner of Rage,
+
+Regiment 2
+
+1 x Chaos Sorcerer Lord (120 points)
+[Artefact]: Infernal Puppet
+[Heroic Trait]: Radiance of Dark Glory,
+6 x Varanguard (580 points),
+
+Faction Terrain: Nexus Chaotica
+
+Wounds: 108
+
+2000/2000 Pts
