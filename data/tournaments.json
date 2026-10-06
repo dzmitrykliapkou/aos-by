@@ -525,11 +525,6 @@
         "rosterFile": "rosters/elizar_dok.txt"
       },
       {
-        "name": "Максим",
-        "army": "Kharadron Overlords",
-        "rosterFile": "rosters/maksim_ko.txt"
-      },
-      {
         "name": "Макар",
         "army": "Idoneth Deepkin",
         "rosterFile": "rosters/makar_idk.txt"
@@ -543,11 +538,6 @@
         "name": "Дмитрий",
         "army": "Maggotkin of Nurgle",
         "rosterFile": "rosters/dmitry_mon.txt"
-      },
-      {
-        "name": "Павел",
-        "army": "Не сдал ростер вовремя!",
-        "rosterFile": ""
       }
     ]
   }
