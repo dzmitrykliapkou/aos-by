@@ -540,7 +540,7 @@
           { "points": 0, "result": "loss"},
           { "points": 1, "result": "loss"},
           { "points": 1, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 12, "result": "win"}
         ]
       },
       {
@@ -552,7 +552,7 @@
           { "points": 5, "result": "loss"},
           { "points": 1, "result": "loss"},
           { "points": 3, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 8, "result": "loss"}
         ]
       },
       {
