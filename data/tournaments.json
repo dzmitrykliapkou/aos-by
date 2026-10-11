@@ -456,7 +456,7 @@
     "date": "2026-10-10",
     "location": "Минск, клуб «Логово Дракона»",
     "organizer": "Артем",
-    "finished": false,
+    "finished": true,
     "rulesFile": "rules.md",
     "players": [
       {
