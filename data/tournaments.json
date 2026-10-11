@@ -632,7 +632,7 @@
         "army": "Flesh-eater Courts",
         "rosterFile": "rosters/tim_fec.txt",
         "games": [
-          { "points": 7, "result": loss""},
+          { "points": 7, "result": "loss"},
           { "points": 0, "result": "loss"},
           { "points": 2, "result": "loss"},
           { "points": 19, "result": "win"},
