@@ -468,7 +468,7 @@
           { "points": 2, "result": "loss"},
           { "points": 13, "result": "win"},
           { "points": 9, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 7, "result": "loss"}
         ]
       },
       {
@@ -480,7 +480,7 @@
           { "points": 20, "result": "win"},
           { "points": 15, "result": "win"},
           { "points": 14, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 19, "result": "win"}
         ]
       },
       {
@@ -492,7 +492,7 @@
           { "points": 17, "result": "win"},
           { "points": 0, "result": "loss"},
           { "points": 6, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 19, "result": "win"}
         ]
       },
       {
@@ -504,7 +504,7 @@
           { "points": 12, "result": "win"},
           { "points": 7, "result": "loss"},
           { "points": 11, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 1, "result": "loss"}
         ]
       },
       {
@@ -516,7 +516,7 @@
           { "points": 8, "result": "loss"},
           { "points": 18, "result": "win"},
           { "points": 13, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 1, "result": "loss"}
         ]
       },
       {
@@ -528,7 +528,7 @@
           { "points": 18, "result": "win"},
           { "points": 20, "result": "win"},
           { "points": 20, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 17, "result": "win"}
         ]
       },
       {
@@ -564,7 +564,7 @@
           { "points": 19, "result": "win"},
           { "points": 1, "result": "loss"},
           { "points": 18, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 13, "result": "win"}
         ]
       },
       {
@@ -576,7 +576,7 @@
           { "points": 8, "result": "loss" },
           { "points": 5, "result": "loss" },
           { "points": 17, "result": "win" },
-          { "points": 0, "result": "" },
+          { "points": 7, "result": "loss" },
         ]
       },
       {
@@ -588,7 +588,7 @@
           { "points": 3, "result": "loss"},
           { "points": 19, "result": "win"},
           { "points": 13, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 3, "result": "loss"}
         ]
       },
       {
@@ -600,7 +600,7 @@
           { "points": 20, "result": "win"},
           { "points": 19, "result": "win"},
           { "points": 7, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 17, "result": "win"}
         ]
       },
       {
@@ -612,7 +612,7 @@
           { "points": 15, "result": "win"},
           { "points": 13, "result": "win"},
           { "points": 0, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 3, "result": "loss"}
         ]
       },
       {
@@ -624,7 +624,7 @@
           { "points": 1, "result": "loss"},
           { "points": 19, "result": "win"},
           { "points": 17, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 13, "result": "win"}
         ]
       },
       {
@@ -636,7 +636,7 @@
           { "points": 0, "result": "loss"},
           { "points": 2, "result": "loss"},
           { "points": 19, "result": "win"},
-          { "points": 0, "result": ""}
+          { "points": 4, "result": "loss"}
         ]
       },
       {
@@ -648,7 +648,7 @@
           { "points": 12, "result": "win"},
           { "points": 7, "result": "loss"},
           { "points": 2, "result": "loss"},
-          { "points": 0, "result": ""}
+          { "points": 16, "result": "win"}
         ]
       }
     ]
