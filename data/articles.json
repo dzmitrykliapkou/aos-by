@@ -236,5 +236,17 @@
     "author": "Роман",
     "cover": "images/aoskharafiction-jul15-art-8qykwe9q2f.jpg",
     "mdFile": "articles/lore/2026-10-01-chronicles-of-ruin-last-chances.md"
+  },
+  {
+    "slug": "this-is-dziady-2026-announcement",
+    "title": "This is Дзяды!!!",
+    "excerpt": "Турнир по Age of Sigmar в день, когда вспоминают предков",
+    "tags": [
+      "новость"
+    ],
+    "date": "2026-10-12",
+    "author": "Роман",
+    "cover": "images/this-is-dziady-2026-cover.jpg",
+    "mdFile": "articles/news/this-is-dziady-2026.md"
   }
 ]
