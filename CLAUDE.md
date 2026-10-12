@@ -22,8 +22,6 @@ Both scripts resolve paths from `os.getcwd()`, so run them from the repository r
 
 `.gitignore` excludes `articles/**/*.html` and `tournaments/**/*.html`. The GitHub Actions workflow (`.github/workflows/deploy.yaml`) runs both generators on every push to `main` and deploys the whole working tree. So a content change is committed as `.md` + `.json` only; running the generators locally is for verification, and the resulting HTML stays untracked.
 
-The one exception is `data/faction-stats.json`: it is generator *output* but it is tracked, because `js/tournament-stats.js` fetches it at runtime. It drifts out of date whenever `data/tournaments.json` is edited without a local generator run — CI always rebuilds it before deploy, so the live site is fine, but the committed copy can be stale.
-
 ## Two rendering paths
 
 Content reaches the browser in one of two ways, and knowing which applies determines where to make a change:

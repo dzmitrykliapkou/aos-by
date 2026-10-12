@@ -652,5 +652,14 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "this-is-dziady-2026",
+    "name": "Age of Sigmar: This is Дзяды!!! 2026",
+    "date": "2026-11-01",
+    "location": "Минск, клуб «Логово Дракона»",
+    "organizer": "Роман",
+    "rulesFile": "rules.md",
+    "finished": false
   }
 ]

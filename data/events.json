@@ -47,5 +47,13 @@
     "location": "Клуб «Д6»",
     "organizer": "Глеб",
     "url": "articles/airbrush-workshop.html"
+  },
+  {
+    "title": "Одиночный турнир по Warhammer: Age of Sigmar «This is Дзяды!!!»",
+    "date": "2026-11-01",
+    "category": "Турнир",
+    "location": "Клуб «Логово Дракона»",
+    "organizer": "Роман",
+    "url": "tournaments/this-is-dziady-2026/"
   }
 ]
