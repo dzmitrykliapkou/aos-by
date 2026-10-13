@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - ".pages.yml"
       - "CLAUDE.md"
+      - "TODO.md"
+      - "improvements.md"
 
   workflow_dispatch:
 
